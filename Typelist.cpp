@@ -6,23 +6,33 @@
 //  Copyright © 2016 Juan Dent. All rights reserved.
 //
 
+//#include "Typelist.hpp"
+#include <type_traits>
+#include <typeinfo>
+#include <iostream>
+
+#include "Typelist.h"
+
 #include "Typelist.hpp"
+#include "Conversion.hpp"
 
 
+using namespace Loki;
+using namespace Loki::TL;
 
 typedef TYPELIST_4(char, unsigned char, signed char, int) CharTypes;
 
-static_assert( std::is_same<CharTypes::Tail::Head, unsigned char>::value);
+static_assert( std::is_same<CharTypes::Tail::Head, unsigned char>::value,"");
 
 
 
-static_assert( std::is_same<int, TypeAt<CharTypes,3>::Result>::value);
+static_assert( std::is_same<int, TypeAt<CharTypes,3>::Result>::value,"");
 
 std::type_info* charsRtti[Length<CharTypes>::value];
 
 
 
-static_assert( IndexOf<CharTypes, signed char>::index == 2);
+static_assert( IndexOf<CharTypes, signed char>::value == 2,"");
 
 
 
@@ -30,10 +40,10 @@ typedef Append<CharTypes, long>::Result CharPlusLong;
 
 static_assert( std::is_same<CharPlusLong::Head, char>::value, "");
  
-static_assert( IndexOf<CharPlusLong, int>::index == 3);
+static_assert( IndexOf<CharPlusLong, int>::value == 3,"");
 
 //static_assert( IndexOf<typename AppendTL<char, int>::Result, int>::index == 1);
-static_assert( IndexOf<TypeList<char, TypeList<int, NullType>>, int>::index == 1);
+static_assert( IndexOf<Typelist<char, Typelist<int, NullType>>, int>::value == 1,"");
 
 // 1) set T = CharTypes
 // 2) get T::Head
@@ -42,7 +52,7 @@ static_assert( IndexOf<TypeList<char, TypeList<int, NullType>>, int>::index == 1
 // 5) set T = T::Tail
 //  ...
 
-static_assert( std::is_same<char, CharTypes::Head>::value );
+static_assert( std::is_same<char, CharTypes::Head>::value,"" );
 
 
 
@@ -50,8 +60,8 @@ static_assert( std::is_same<char, CharTypes::Head>::value );
 
 typedef Erase<CharTypes, signed char>::Result CharMinusSignedChar;
 
-static_assert( IndexOf<CharTypes, signed char>::index != -1);
-static_assert( IndexOf<CharMinusSignedChar, signed char>::index == -1);
+static_assert( IndexOf<CharTypes, signed char>::value != -1,"");
+static_assert( IndexOf<CharMinusSignedChar, signed char>::value == -1,"");
 
 
 
@@ -88,7 +98,7 @@ void useReplaceAndPrint() {
 namespace TL {
     
     
-    typedef TypeList<char, TypeList<unsigned char, NullType>> CharTypes;
+    typedef Typelist<char, Typelist<unsigned char, NullType>> CharTypes;
 
 
 

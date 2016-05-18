@@ -150,7 +150,7 @@ namespace Loki
 
 #define SUPERSUBCLASS(T, U) \
     (::Loki::Conversion<const U*, const T*>::exists && \
-    !::Loki::Conversion<const T*, const void*>::sameType)
+    ::Loki::Conversion<const T*, const void*>::sameType == 0)
 
 ////////////////////////////////////////////////////////////////////////////////
 // macro SUPERSUBCLASS

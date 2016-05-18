@@ -9,6 +9,10 @@
 #ifndef Typelist_hpp
 #define Typelist_hpp
 
+#include "NullType.h"
+
+
+#if FALSE
 #include <type_traits>
 #include <typeinfo>
 #include <iostream>
@@ -193,10 +197,8 @@ public:
     typedef TypeList<Head, L2> Result;
 #endif
 };
+#endif
 
-
-template<class TList>
-struct PrintList;
 
 template<class T>
 void DefaultPrint()
@@ -204,26 +206,19 @@ void DefaultPrint()
     std::cout << typeid(T).name() << ", " << typeid(T).hash_code() << std::endl;
 }
 
+template<class TList>
+struct PrintList;
 
-/*
-template<class T>
-struct PrintList<TypeList<T,NullType>>
-{
-    static void Print() {
-        DefaultPrint<T>();
-    }
-};
- */
 
 template<>
-struct PrintList<NullType>
+struct PrintList<Loki::NullType>
 {
     static void Print() {
     }
 };
 
 template<class Head, class Tail>
-struct PrintList<TypeList<Head,Tail>>
+struct PrintList<Loki::Typelist<Head,Tail>>
 {
     static void Print() {
         DefaultPrint<Head>();
@@ -232,6 +227,7 @@ struct PrintList<TypeList<Head,Tail>>
 };
 
 
+#if FALSE
 template<class TList, class T, class U>
 struct Replace;
 
@@ -273,6 +269,6 @@ struct ReplaceAll<TypeList<Head,Tail>, T, U>
 {
     typedef TypeList<Head, typename ReplaceAll<Tail,T,U>::Result> Result;
 };
-
+#endif
 
 #endif /* Typelist_hpp */
