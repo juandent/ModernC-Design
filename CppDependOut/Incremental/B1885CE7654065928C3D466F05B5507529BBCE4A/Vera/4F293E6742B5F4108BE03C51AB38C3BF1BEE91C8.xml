@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+    <file name="C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\main.cpp">
+        <error source="L005" severity="info" line="15" message="too many consecutive empty lines" />
+        <error source="T011" severity="info" line="18" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="24" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="28" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="41" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="46" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="77" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="92" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="93" message="closing curly bracket not in the same line or column" />
+        <error source="L001" severity="info" line="96" message="trailing whitespace" />
+        <error source="L001" severity="info" line="106" message="trailing whitespace" />
+        <error source="T011" severity="info" line="107" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="108" message="closing curly bracket not in the same line or column" />
+        <error source="L001" severity="info" line="111" message="trailing whitespace" />
+        <error source="T003" severity="info" line="112" message="keyword &apos;class&apos; not followed by a single space" />
+        <error source="L001" severity="info" line="121" message="trailing whitespace" />
+        <error source="T011" severity="info" line="122" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="123" message="closing curly bracket not in the same line or column" />
+        <error source="T009" severity="info" line="139" message="comma should be followed by whitespace" />
+        <error source="T011" severity="info" line="141" message="closing curly bracket not in the same line or column" />
+        <error source="L005" severity="info" line="144" message="too many consecutive empty lines" />
+        <error source="T011" severity="info" line="149" message="closing curly bracket not in the same line or column" />
+        <error source="L001" severity="info" line="165" message="trailing whitespace" />
+        <error source="T011" severity="info" line="168" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="171" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="172" message="closing curly bracket not in the same line or column" />
+        <error source="L001" severity="info" line="178" message="trailing whitespace" />
+        <error source="T011" severity="info" line="187" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="190" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="191" message="closing curly bracket not in the same line or column" />
+        <error source="T009" severity="info" line="198" message="comma should be followed by whitespace" />
+        <error source="T011" severity="info" line="200" message="closing curly bracket not in the same line or column" />
+        <error source="T011" severity="info" line="210" message="closing curly bracket not in the same line or column" />
+        <error source="L004" severity="info" line="221" message="line is longer than 100 characters" />
+        <error source="L001" severity="info" line="225" message="trailing whitespace" />
+        <error source="L004" severity="info" line="226" message="line is longer than 100 characters" />
+        <error source="L004" severity="info" line="233" message="line is longer than 100 characters" />
+        <error source="T011" severity="info" line="238" message="closing curly bracket not in the same line or column" />
+        <error source="T009" severity="info" line="241" message="comma should be followed by whitespace" />
+        <error source="L001" severity="info" line="245" message="trailing whitespace" />
+        <error source="T011" severity="info" line="250" message="closing curly bracket not in the same line or column" />
+        <error source="L002" severity="info" line="269" message="horizontal tab used" />
+        <error source="L002" severity="info" line="271" message="horizontal tab used" />
+        <error source="L001" severity="info" line="286" message="trailing whitespace" />
+        <error source="L001" severity="info" line="287" message="trailing whitespace" />
+        <error source="L001" severity="info" line="294" message="trailing whitespace" />
+        <error source="L001" severity="info" line="296" message="trailing whitespace" />
+        <error source="T009" severity="info" line="304" message="comma should be followed by whitespace" />
+        <error source="T008" severity="info" line="329" message="keyword &apos;for&apos; not followed by a single space" />
+        <error source="T011" severity="info" line="331" message="closing curly bracket not in the same line or column" />
+        <error source="T009" severity="info" line="341" message="comma should be followed by whitespace" />
+        <error source="T011" severity="info" line="346" message="closing curly bracket not in the same line or column" />
+    </file>
+</checkstyle>

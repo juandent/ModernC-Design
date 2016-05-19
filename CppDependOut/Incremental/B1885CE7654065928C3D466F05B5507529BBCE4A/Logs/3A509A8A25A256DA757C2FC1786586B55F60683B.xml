@@ -1,0 +1,5 @@
+<log>
+ <error level="warning" id="warn_cxx98_compat_generalized_initializer_lists" file="C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\SmartPtr.cpp" line="25" col="46" msg="generalized initializer lists are incompatible with C++98" />
+ <error level="warning" id="warn_cxx98_compat_generalized_initializer_lists" file="C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\SmartPtr.cpp" line="32" col="21" msg="generalized initializer lists are incompatible with C++98" />
+ <error level="warning" id="warn_cxx98_compat_no_newline_eof" file="C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\SmartPtr.cpp" line="55" col="3" msg="C++98 requires newline at end of file" />
+</log>

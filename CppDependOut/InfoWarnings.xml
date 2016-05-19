@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with CppDepend v6.1.0.0</Info>
+  <Info>The parser used is Clang</Info>
+  <Info>4 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <Info>CppCheck is enabled.You can disable it from 'Project Properties=&gt;Plugins Tab'</Info>
+  <Info>Vera++ is enabled.You can disable it from 'Project Properties=&gt;Plugins Tab'</Info>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>CppDepend analysis done. Duration: 00:02</Info>
+</InfoWarnings>

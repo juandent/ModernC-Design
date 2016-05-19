@@ -1,0 +1,3026 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="1"/>
+<c f="1" b="2" e="2"/>
+<c f="1" b="3" e="3"/>
+<c f="1" b="4" e="4"/>
+<c f="1" b="5" e="5"/>
+<c f="1" b="6" e="6"/>
+<c f="1" b="7" e="7"/>
+<c f="1" b="9" e="7"/>
+<c f="1" b="79" e="79"/>
+<c f="1" b="80" e="79"/>
+<c f="1" b="133" e="137"/>
+<c f="1" b="139" e="137"/>
+<c f="1" b="176" e="176"/>
+<c f="1" b="177" e="181"/>
+<c f="1" b="182" e="181"/>
+<c f="1" b="225" e="231"/>
+<c f="1" b="232" e="231"/>
+<c f="1" b="248" e="248"/>
+<c f="1" b="249" e="248"/>
+<c f="1" b="264" e="264"/>
+<c f="1" b="266" e="264"/>
+<c f="1" b="291" e="291"/>
+<c f="1" b="292" e="291"/>
+<c f="1" b="293" e="293"/>
+<c f="1" b="295" e="295"/>
+<c f="1" b="298" e="295"/>
+<c f="1" b="301" e="301"/>
+<c f="1" b="303" e="301"/>
+<c f="1" b="321" e="321"/>
+<c f="1" b="322" e="322"/>
+<c f="1" b="324" e="322"/>
+</Comments>
+<Macros/>
+<Comments>
+<c f="1" b="1" e="1"/>
+<c f="1" b="2" e="2"/>
+<c f="1" b="3" e="3"/>
+<c f="1" b="4" e="4"/>
+<c f="1" b="5" e="5"/>
+<c f="1" b="6" e="6"/>
+<c f="1" b="7" e="7"/>
+<c f="1" b="9" e="7"/>
+<c f="1" b="79" e="79"/>
+<c f="1" b="80" e="79"/>
+<c f="1" b="133" e="137"/>
+<c f="1" b="139" e="137"/>
+<c f="1" b="176" e="176"/>
+<c f="1" b="177" e="181"/>
+<c f="1" b="182" e="181"/>
+<c f="1" b="225" e="231"/>
+<c f="1" b="232" e="231"/>
+<c f="1" b="248" e="248"/>
+<c f="1" b="249" e="248"/>
+<c f="1" b="264" e="264"/>
+<c f="1" b="266" e="264"/>
+<c f="1" b="291" e="291"/>
+<c f="1" b="292" e="291"/>
+<c f="1" b="293" e="293"/>
+<c f="1" b="295" e="295"/>
+<c f="1" b="298" e="295"/>
+<c f="1" b="301" e="301"/>
+<c f="1" b="303" e="301"/>
+<c f="1" b="321" e="321"/>
+<c f="1" b="322" e="322"/>
+<c f="1" b="324" e="322"/>
+</Comments>
+<Macros/>
+<tun>
+<cr access="none" depth="0" kind="struct" name="P" id="3fd5558af1bece9fedecc0491ce68a84_b711028d39c09221a219a579eab6370d" file="1" linestart="16" lineend="18">
+<cr access="public" kind="struct" name="P" id="3fd5558af1bece9fedecc0491ce68a84_1644e4207bb9d2f1f4728b57ff673858" file="1" linestart="16" lineend="16"/>
+<fl name="first" id="3fd5558af1bece9fedecc0491ce68a84_b859859a91eeb5712d9a543c80c90515" file="1" linestart="17" lineend="17" access="public" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<fl name="last" id="3fd5558af1bece9fedecc0491ce68a84_fb70b7c833e0d15a32744e0f898936ff" file="1" linestart="17" lineend="17" access="public" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<c name="P" id="3fd5558af1bece9fedecc0491ce68a84_8acffd68243e56fea7a609914077730a" file="1" linestart="16" lineend="16" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="P &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_b711028d39c09221a219a579eab6370d"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_fa4724143ea149bf70aeb53ae6d1a359" file="1" linestart="16" implicit="true" operator="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="P &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_b711028d39c09221a219a579eab6370d"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="P &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_b711028d39c09221a219a579eab6370d"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<d name="~P" id="3fd5558af1bece9fedecc0491ce68a84_9a444a9e85e777fbeb47bd38c9082fea" file="1" linestart="16" lineend="16" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+</cr>
+<tm access="none" depth="0" kind="struct" name="OpNewCreator" id="3fd5558af1bece9fedecc0491ce68a84_a70a00cbb9db31e7129ee750441f75e3" file="1" linestart="20" lineend="28">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_f7014fc62880d4fd63859d24c35ceb69" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" depth="0" kind="struct" name="OpNewCreator" id="3fd5558af1bece9fedecc0491ce68a84_a70a00cbb9db31e7129ee750441f75e3" file="1" linestart="21" lineend="28">
+<cr access="public" kind="struct" name="OpNewCreator" id="3fd5558af1bece9fedecc0491ce68a84_f327beb17709b5288b825f71afc13940" file="1" linestart="21" lineend="21"/>
+<m name="Create" id="3fd5558af1bece9fedecc0491ce68a84_ed109e76db3fabd1c83cff2713b6ccd7" file="1" linestart="22" lineend="24" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fpt>
+<Stmt>
+<u lb="22" cb="24" le="24" ce="5">
+<rx lb="23" cb="9" le="23" ce="20" pvirg="true">
+<new lb="23" cb="16" le="23" ce="20">
+<exp pvirg="true"/>
+</new>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<asd access="protected"/>
+<d name="~OpNewCreator&lt;T&gt;" id="3fd5558af1bece9fedecc0491ce68a84_71979b16f9e963ceed48efaef1303f01" file="1" linestart="27" lineend="27" access="protected" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="27" cb="21" le="27" ce="22"/>
+
+</Stmt>
+</d>
+</cr>
+</tm>
+<cr access="none" depth="1" kind="class" name="Person" id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745" file="1" linestart="30" lineend="57">
+<base access="public">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_a70a00cbb9db31e7129ee750441f75e3"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="Person" id="3fd5558af1bece9fedecc0491ce68a84_24d179515585a236b95fa0ee9b7be2a3" file="1" linestart="30" lineend="30"/>
+<asd access="public"/>
+<c name="Person" id="3fd5558af1bece9fedecc0491ce68a84_8bd550ca20145cf1fdaaa0a51a38218a" file="1" linestart="34" lineend="34" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<BaseInit>
+<n10 lb="34" cb="5">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_0d0b2a910894619cf643a93db6e7f8a2">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+
+</BaseInit>
+<Stmt>
+<u lb="34" cb="20"/>
+
+</Stmt>
+</c>
+<c name="Person" id="3fd5558af1bece9fedecc0491ce68a84_3dc2e3ac887385ee7f170fcc7ff8ca16" file="1" linestart="35" lineend="36" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="first" proto="const std::string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="last" proto="const std::string &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<BaseInit>
+<n10 lb="35" cb="5">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_0d0b2a910894619cf643a93db6e7f8a2">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+
+</BaseInit>
+<initlist id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70">
+<Stmt>
+<n10 lb="36" cb="7" le="36" ce="22">
+<typeptr id="43e57e2314d98c3481e7c5229eab5466_3053f3db86d2b4d3af8b039438cb09cc">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<drx lb="36" cb="17" kind="lvalue" nm="first"/>
+</n10>
+
+</Stmt>
+</initlist>
+<initlist id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20">
+<Stmt>
+<n10 lb="36" cb="25" le="36" ce="38">
+<typeptr id="43e57e2314d98c3481e7c5229eab5466_3053f3db86d2b4d3af8b039438cb09cc">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<drx lb="36" cb="34" kind="lvalue" nm="last"/>
+</n10>
+
+</Stmt>
+</initlist>
+<Stmt>
+<u lb="36" cb="40" le="36" ce="41"/>
+
+</Stmt>
+</c>
+<c name="Person" id="3fd5558af1bece9fedecc0491ce68a84_45f237ad30d11e96a8fb6e71a2cf1bb2" file="1" linestart="38" lineend="41" copyconst="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="p" proto="const Person &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<BaseInit>
+<n10 lb="38" cb="5">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_0d0b2a910894619cf643a93db6e7f8a2">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+
+</BaseInit>
+<Stmt>
+<u lb="38" cb="30" le="41" ce="5">
+<ocx lb="39" cb="9" le="39" ce="23" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_d7d0ac7a3f487eb2ef39fc0aabf361a8">
+<exp pvirg="true"/>
+<n32 lb="39" cb="19">
+<drx lb="39" cb="19" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_d7d0ac7a3f487eb2ef39fc0aabf361a8" nm="operator="/>
+</n32>
+<mex lb="39" cb="9" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70" nm="firstName" arrow="1">
+<n19 lb="39" cb="9"/>
+</mex>
+<mex lb="39" cb="21" le="39" ce="23" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70" nm="firstName" point="1">
+<drx lb="39" cb="21" kind="lvalue" nm="p"/>
+</mex>
+</ocx>
+<ocx lb="40" cb="9" le="40" ce="22" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_d7d0ac7a3f487eb2ef39fc0aabf361a8">
+<exp pvirg="true"/>
+<n32 lb="40" cb="18">
+<drx lb="40" cb="18" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_d7d0ac7a3f487eb2ef39fc0aabf361a8" nm="operator="/>
+</n32>
+<mex lb="40" cb="9" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20" nm="lastName" arrow="1">
+<n19 lb="40" cb="9"/>
+</mex>
+<mex lb="40" cb="20" le="40" ce="22" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20" nm="lastName" point="1">
+<drx lb="40" cb="20" kind="lvalue" nm="p"/>
+</mex>
+</ocx>
+</u>
+
+</Stmt>
+</c>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_34c67d3084a127d762e290e0150752bd" file="1" linestart="42" lineend="46" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="Person &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</lrf>
+</fpt>
+<p name="rhs" proto="const Person &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="42" cb="43" le="46" ce="5">
+<dst lb="43" cb="9" le="43" ce="24">
+<exp pvirg="true"/>
+<Var nm="tmp" value="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+<n10 lb="43" cb="16" le="43" ce="23">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_45f237ad30d11e96a8fb6e71a2cf1bb2"/>
+<temp/>
+<drx lb="43" cb="20" kind="lvalue" nm="rhs"/>
+</n10>
+</Var>
+</dst>
+<mce lb="44" cb="9" le="44" ce="23" nbparm="1" id="3fd5558af1bece9fedecc0491ce68a84_8f680c8a61c716ba4c17ab3ab9d94313">
+<exp pvirg="true"/>
+<mex lb="44" cb="9" le="44" ce="13" id="3fd5558af1bece9fedecc0491ce68a84_8f680c8a61c716ba4c17ab3ab9d94313" nm="Swap" point="1">
+<drx lb="44" cb="9" kind="lvalue" nm="tmp"/>
+</mex>
+<uo lb="44" cb="18" le="44" ce="19" kind="*">
+<n19 lb="44" cb="19"/>
+</uo>
+</mce>
+<rx lb="45" cb="9" le="45" ce="17" pvirg="true">
+<uo lb="45" cb="16" le="45" ce="17" kind="*">
+<n19 lb="45" cb="17"/>
+</uo>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Swap" id="3fd5558af1bece9fedecc0491ce68a84_8f680c8a61c716ba4c17ab3ab9d94313" file="1" linestart="48" lineend="53" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="rhs" proto="Person &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="49" cb="5" le="53" ce="5">
+<ce lb="50" cb="9" le="50" ce="43" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_a2b8c5ab070aab42410f6fcad27e2d91">
+<exp pvirg="true"/>
+<n32 lb="50" cb="9" le="50" ce="14">
+<drx lb="50" cb="9" le="50" ce="14" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_a2b8c5ab070aab42410f6fcad27e2d91" nm="swap">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<mex lb="50" cb="19" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70" nm="firstName" arrow="1">
+<n19 lb="50" cb="19"/>
+</mex>
+<mex lb="50" cb="30" le="50" ce="34" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70" nm="firstName" point="1">
+<drx lb="50" cb="30" kind="lvalue" nm="rhs"/>
+</mex>
+</ce>
+<ce lb="51" cb="9" le="51" ce="41" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_a2b8c5ab070aab42410f6fcad27e2d91">
+<exp pvirg="true"/>
+<n32 lb="51" cb="9" le="51" ce="14">
+<drx lb="51" cb="9" le="51" ce="14" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_a2b8c5ab070aab42410f6fcad27e2d91" nm="swap">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<mex lb="51" cb="19" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20" nm="lastName" arrow="1">
+<n19 lb="51" cb="19"/>
+</mex>
+<mex lb="51" cb="29" le="51" ce="33" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20" nm="lastName" point="1">
+<drx lb="51" cb="29" kind="lvalue" nm="rhs"/>
+</mex>
+</ce>
+</u>
+
+</Stmt>
+</m>
+<fl name="firstName" id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70" file="1" linestart="55" lineend="55" access="public" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<fl name="lastName" id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20" file="1" linestart="56" lineend="56" access="public" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<d name="~Person" id="3fd5558af1bece9fedecc0491ce68a84_90178f9bba383219fe2ea9db1a4e8900" file="1" linestart="30" lineend="30" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="30" cb="7"/>
+
+</Stmt>
+</d>
+</cr>
+<tm access="none" depth="0" pod="true" kind="class" name="Widget" id="3fd5558af1bece9fedecc0491ce68a84_06dd429b0289146eb8e69a64cc549648" file="1" linestart="59" lineend="66">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_cfd1d06305b54818b2a316d69af7744b" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" depth="0" pod="true" kind="class" name="Widget" id="3fd5558af1bece9fedecc0491ce68a84_06dd429b0289146eb8e69a64cc549648" file="1" linestart="59" lineend="66">
+<cr access="public" kind="class" name="Widget" id="3fd5558af1bece9fedecc0491ce68a84_6ab8b5426454f6646410e5a8bbcb5297" file="1" linestart="59" lineend="59"/>
+<asd access="public"/>
+<tyd name="const_T" id="3fd5558af1bece9fedecc0491ce68a84_aee6114e5301293c1345097d2271a438" file="1" linestart="62" lineend="62">
+<DependentName/>
+</tyd>
+<m name="fun" id="3fd5558af1bece9fedecc0491ce68a84_d884be03c634919d162c03ae037489c9" file="1" linestart="64" lineend="64" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="64" cb="16" le="64" ce="40">
+<ocx lb="64" cb="18" le="64" ce="31" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="64" cb="28">
+<drx lb="64" cb="28" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="64" cb="18" le="64" ce="23" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="64" cb="31">
+<n52 lb="64" cb="31">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+<m name="boring" id="3fd5558af1bece9fedecc0491ce68a84_903cba689b2ed1ecc9901777628054d6" file="1" linestart="65" lineend="65" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="65" cb="19" le="65" ce="46">
+<ocx lb="65" cb="21" le="65" ce="34" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="65" cb="31">
+<drx lb="65" cb="31" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="65" cb="21" le="65" ce="26" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="65" cb="34">
+<n52 lb="65" cb="34">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<m name="fun" id="3fd5558af1bece9fedecc0491ce68a84_5404c8532aa8ff3f1525ff2b69114b7b" file="1" linestart="68" lineend="71" previous="3fd5558af1bece9fedecc0491ce68a84_5404c8532aa8ff3f1525ff2b69114b7b" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="69" cb="1" le="71" ce="1">
+<ocx lb="70" cb="5" le="70" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="70" cb="15">
+<drx lb="70" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="70" cb="5" le="70" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="70" cb="18">
+<n52 lb="70" cb="18">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+<cr access="none" depth="0" kind="class" name="Thing" id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6" file="1" linestart="73" lineend="77">
+<cr access="public" kind="class" name="Thing" id="3fd5558af1bece9fedecc0491ce68a84_184d1fc6b261e71340a618c8ab21f4c5" file="1" linestart="73" lineend="73"/>
+<asd access="public"/>
+<fl name="name" id="3fd5558af1bece9fedecc0491ce68a84_3b1a1ab4036378ff157070e1f4b6f2e5" file="1" linestart="75" lineend="75" access="public" proto="std::string">
+<ety>
+<Tdef>
+<tss>
+<templatebase id="43e57e2314d98c3481e7c5229eab5466_6ecc822215ca97386606c5e8e95c56fb"/>
+<template_arguments>
+<bt name="char"/>
+<tss>
+<templatebase id="1b9b5f13fc50919fc1cbcbc41c4276ce_bf3447e13ccfc57e5fa847f5d78e7639"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<tss>
+<templatebase id="6296f70cc969544ce1f87c96145b57ec_07566aa809aee0bdf1c0fac16e19fa85"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+</ety>
+</fl>
+<fl name="value" id="3fd5558af1bece9fedecc0491ce68a84_b7481fda28f837cc3b24c34e4da2747c" file="1" linestart="76" lineend="76" isLiteral="true" access="public" proto="int">
+<bt name="int"/>
+</fl>
+<c name="Thing" id="3fd5558af1bece9fedecc0491ce68a84_b4e3e085c4a87e887443c456c60a8e8f" file="1" linestart="73" lineend="73" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="Thing &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_787325ae722419b5ce59dbf5ca5859ca" file="1" linestart="73" implicit="true" operator="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="Thing &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="Thing &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<d name="~Thing" id="3fd5558af1bece9fedecc0491ce68a84_1ba2ffa239482716dab7077bb34f9647" file="1" linestart="73" lineend="73" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="73" cb="7"/>
+
+</Stmt>
+</d>
+<c name="Thing" id="3fd5558af1bece9fedecc0491ce68a84_91a2905c30ca9db2f4f7a93311e6320a" file="1" linestart="73" lineend="73" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="73" cb="7"/>
+
+</Stmt>
+</c>
+<c name="Thing" id="3fd5558af1bece9fedecc0491ce68a84_af206bba78d9d59bd21c0ddeaafb86f6" file="1" linestart="73" lineend="73" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const Thing &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<ns name="v_1" id="3fd5558af1bece9fedecc0491ce68a84_35731889c456f31e7719abbe4681c5af" file="1" linestart="80" lineend="93">
+<tm namespace="v_1" access="none" depth="0" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_aab3d65d3de9c31067477a07d943c8ce" file="1" linestart="81" lineend="86">
+<template_parameters>
+<ttp name="CreationPolicy" id="3fd5558af1bece9fedecc0491ce68a84_8e03f0e1e1d10df7d0a214b898161a8c" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="v_1" access="none" depth="0" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_ebe638a5e3e10d42edba54bc4390a743" file="1" linestart="82" lineend="86">
+<base access="public">
+<ttp/>
+</base>
+<cr access="public" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_1f6e2cded20fb397b5df724a6eb665e0" file="1" linestart="82" lineend="82"/>
+<asd access="public"/>
+<m name="Create" id="3fd5558af1bece9fedecc0491ce68a84_7bab7da680bb2f150712f9df4de8c178" file="1" linestart="85" lineend="85" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="Thing *">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="85" cb="26" le="85" ce="61">
+<rx lb="85" cb="28" le="85" ce="58" pvirg="true">
+<ce lb="85" cb="35" le="85" ce="58" nbparm="0">
+<exp pvirg="true"/>
+<n14 lb="85" cb="35" le="85" ce="51">
+<exp pvirg="true"/>
+</n14>
+</ce>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<f namespace="v_1" name="useThingManager" id="3fd5558af1bece9fedecc0491ce68a84_5d176c82088d4ca91a7186c2a39b4e1a" file="1" linestart="88" lineend="92" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="88" cb="28" le="92" ce="5">
+<dst lb="89" cb="9" le="89" ce="61">
+<exp pvirg="true"/>
+<Var nm="MyThingMgr" typedef="true"/>
+</dst>
+<dst lb="90" cb="9" le="90" ce="25">
+<exp pvirg="true"/>
+<Var nm="mgr" value="true">
+<Tdef>
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_ebe638a5e3e10d42edba54bc4390a743"/>
+<template_arguments>
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_a70a00cbb9db31e7129ee750441f75e3"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</Tdef>
+<n10 lb="90" cb="20" le="90" ce="24">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_1296efb599b6c58097deff938ddaa978">
+<template_arguments>
+<rt>
+<cts id="3fd5558af1bece9fedecc0491ce68a84_a70a00cbb9db31e7129ee750441f75e3">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+</Var>
+</dst>
+<n37 lb="91" cb="9" le="91" ce="46">
+<n8 lb="91" cb="9" le="91" ce="46" >
+<temp/>
+<n11 lb="91" cb="9" le="91" ce="46">
+<typeptr id="25660966a4a44d2c6610cbb32a932b78_c05db4dce6edab0010c36a6e65ab72bb">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+<rt>
+<cts id="25660966a4a44d2c6610cbb32a932b78_604f1078b743f975a1b18033e3721fd8">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mce lb="91" cb="34" le="91" ce="45" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_7bab7da680bb2f150712f9df4de8c178">
+<exp pvirg="true"/>
+<mex lb="91" cb="34" le="91" ce="38" id="3fd5558af1bece9fedecc0491ce68a84_7bab7da680bb2f150712f9df4de8c178" nm="Create" point="1">
+<drx lb="91" cb="34" kind="lvalue" nm="mgr"/>
+</mex>
+</mce>
+</n11>
+</n8>
+</n37>
+</u>
+
+</Stmt>
+</f>
+</ns>
+<ns name="v_2" id="3fd5558af1bece9fedecc0491ce68a84_b99958ad46979f9dfb60776d47f2e648" file="1" linestart="95" lineend="108">
+<tm namespace="v_2" access="none" depth="0" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_d4f09a71eab407f017ebb967acf05fc8" file="1" linestart="97" lineend="103">
+<template_parameters>
+<tpm name="CreationPolicy" id="3fd5558af1bece9fedecc0491ce68a84_01fe1f6b34639f5bdc97b6dc73387364" file="1" linestart="97" lineend="97" depth="0" index="0">
+<template_parameters>
+<ttp name="Created" id="3fd5558af1bece9fedecc0491ce68a84_86c57bf0e6bf73d7e5a4cec81352f3d2" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tpm>
+</template_parameters>
+<cr namespace="v_2" access="none" depth="0" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_7f00c6abd0e5b219aca0cf1f9afae9b4" file="1" linestart="98" lineend="103">
+<base access="public">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_01fe1f6b34639f5bdc97b6dc73387364"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_156b6f66dd230816e1f9856f9e440e07" file="1" linestart="98" lineend="98"/>
+<TypedefNameDecl name="classToManage" id="3fd5558af1bece9fedecc0491ce68a84_7760b2eeeb6111d63f94851e5c58d1b6" file="1" linestart="100" lineend="100">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</TypedefNameDecl>
+<asd access="public"/>
+<m name="Create" id="3fd5558af1bece9fedecc0491ce68a84_f81667dbdf6953fbae1793b0424dbfc8" file="1" linestart="102" lineend="102" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="classToManage *">
+<pt>
+<Tdef>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</Tdef>
+</pt>
+</fpt>
+<Stmt>
+<u lb="102" cb="34" le="102" ce="84">
+<rx lb="102" cb="36" le="102" ce="81" pvirg="true">
+<ce lb="102" cb="43" le="102" ce="81" nbparm="0">
+<exp pvirg="true"/>
+<n14 lb="102" cb="43" le="102" ce="74">
+<exp pvirg="true"/>
+</n14>
+</ce>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<f namespace="v_2" name="useThingManager" id="3fd5558af1bece9fedecc0491ce68a84_be47d531ff2622f1710980624a28772d" file="1" linestart="105" lineend="107" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="105" cb="28" le="107" ce="5"/>
+
+</Stmt>
+</f>
+</ns>
+<ns name="v_3" id="3fd5558af1bece9fedecc0491ce68a84_a29fec666df5892f6464a7789a70f074" file="1" linestart="110" lineend="123" inline="true">
+<tm namespace="v_3" access="none" depth="0" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_ece997adb7376beffc23169021f35cf3" file="1" linestart="112" lineend="117">
+<template_parameters>
+<tpm name="CreationPolicy" id="3fd5558af1bece9fedecc0491ce68a84_bc0ba6b25584265fd0890c3ef42b458b" file="1" linestart="112" lineend="112" depth="0" index="0">
+<template_parameters>
+<ttp name="" id="3fd5558af1bece9fedecc0491ce68a84_ece997adb7376beffc23169021f35cf3" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tpm>
+</template_parameters>
+<cr namespace="v_3" access="none" depth="0" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_ff664a9c64060fb8aff9eebc4247ab7d" file="1" linestart="113" lineend="117">
+<base access="public">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_bc0ba6b25584265fd0890c3ef42b458b"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="ThingManager" id="3fd5558af1bece9fedecc0491ce68a84_918a746ae4ad449213b08dec650f20ce" file="1" linestart="113" lineend="113"/>
+<asd access="public"/>
+<m name="Create" id="3fd5558af1bece9fedecc0491ce68a84_c06a9aedbc2ee9ecee42c4be99f224b9" file="1" linestart="116" lineend="116" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="Thing *">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="116" cb="26" le="116" ce="68">
+<rx lb="116" cb="28" le="116" ce="65" pvirg="true">
+<ce lb="116" cb="35" le="116" ce="65" nbparm="0">
+<exp pvirg="true"/>
+<n14 lb="116" cb="35" le="116" ce="58">
+<exp pvirg="true"/>
+</n14>
+</ce>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<TypedefNameDecl name="ThingMgr" id="3fd5558af1bece9fedecc0491ce68a84_9d212b79faa08ec1092bc724883973bd" file="1" linestart="119" lineend="119">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_ff664a9c64060fb8aff9eebc4247ab7d"/>
+<template_arguments/>
+</tss>
+</TypedefNameDecl>
+<f namespace="v_3" name="useThingManager" id="3fd5558af1bece9fedecc0491ce68a84_e84bbda30ef85c7671a63117dfbc5355" file="1" linestart="120" lineend="122" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="120" cb="28" le="122" ce="5"/>
+
+</Stmt>
+</f>
+</ns>
+<tm access="none" depth="0" kind="class" name="Gadget" id="3fd5558af1bece9fedecc0491ce68a84_265e9def3b39dffd43003b2ea2716c58" file="1" linestart="126" lineend="131">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_7707a83237f9feb32863bf2691623c64" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="U" id="3fd5558af1bece9fedecc0491ce68a84_9c30b0e72defbc1993f78b487fcfd125" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<cr access="none" depth="0" kind="class" name="Gadget" id="3fd5558af1bece9fedecc0491ce68a84_265e9def3b39dffd43003b2ea2716c58" file="1" linestart="127" lineend="131">
+<cr access="public" kind="class" name="Gadget" id="3fd5558af1bece9fedecc0491ce68a84_b61001f0885e6d80cfe085cde6312f3b" file="1" linestart="127" lineend="127"/>
+<asd access="public"/>
+<m name="fun" id="3fd5558af1bece9fedecc0491ce68a84_55b51f54030b93d8ed01e29617530f3a" file="1" linestart="130" lineend="130" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="130" cb="24" le="130" ce="48">
+<ocx lb="130" cb="26" le="130" ce="39" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="130" cb="36">
+<drx lb="130" cb="36" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="130" cb="26" le="130" ce="31" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="130" cb="39">
+<n52 lb="130" cb="39">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<m name="fun" id="3fd5558af1bece9fedecc0491ce68a84_c8a9249972c29ae0476a9e650edd964d" file="1" linestart="139" lineend="141" previous="3fd5558af1bece9fedecc0491ce68a84_c8a9249972c29ae0476a9e650edd964d" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="139" cb="44" le="141" ce="1">
+<ocx lb="140" cb="5" le="140" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="140" cb="15">
+<drx lb="140" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="140" cb="5" le="140" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="140" cb="18">
+<n52 lb="140" cb="18">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+<ctps Spec="&lt;type-parameter-0-0, char&gt;" access="none" depth="0" kind="class" name="Gadget" id="3fd5558af1bece9fedecc0491ce68a84_eefe51ca38a763cffbf41191a16631b2" file="1" linestart="145" lineend="149">
+<cr access="public" kind="class" name="Gadget" id="3fd5558af1bece9fedecc0491ce68a84_0864b0bd7a22cd9534d22514d9d1ee36" file="1" linestart="146" lineend="146"/>
+<asd access="public"/>
+<m name="fun" id="3fd5558af1bece9fedecc0491ce68a84_d1601b4a21c599e0837523f57f4ac28a" file="1" linestart="148" lineend="148" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="148" cb="24" le="148" ce="64">
+<ocx lb="148" cb="26" le="148" ce="39" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="148" cb="36">
+<drx lb="148" cb="36" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="148" cb="26" le="148" ce="31" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="148" cb="39">
+<n52 lb="148" cb="39">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+</ctps>
+<tm access="none" depth="1" kind="class" name="SpecialGadget" id="3fd5558af1bece9fedecc0491ce68a84_9d284863359f5cfc28ae0ad66f185542" file="1" linestart="151" lineend="156">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_edfde4c6211ecf338642dcdaf4e41f30" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="U" id="3fd5558af1bece9fedecc0491ce68a84_a0a12562661e340a9c535fb46d51214d" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<cr access="none" depth="1" kind="class" name="SpecialGadget" id="3fd5558af1bece9fedecc0491ce68a84_9d284863359f5cfc28ae0ad66f185542" file="1" linestart="152" lineend="156">
+<base access="public">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_265e9def3b39dffd43003b2ea2716c58"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="SpecialGadget" id="3fd5558af1bece9fedecc0491ce68a84_6eec4a740299be9f3ed6a24a7d8baedd" file="1" linestart="152" lineend="152"/>
+<asd access="public"/>
+<m name="fun" id="3fd5558af1bece9fedecc0491ce68a84_e60eaa311ba68f1325078da561766bbf" file="1" linestart="155" lineend="155" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="155" cb="34" le="155" ce="80">
+<ocx lb="155" cb="36" le="155" ce="49" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="155" cb="46">
+<drx lb="155" cb="46" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="155" cb="36" le="155" ce="41" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="155" cb="49">
+<n52 lb="155" cb="49">
+<slit/>
+</n52>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<ft name="abs" id="3fd5558af1bece9fedecc0491ce68a84_bbbad1aa4cff689fb4ab475cd7bae6a4" file="1" linestart="158" lineend="162">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_1eb4d26cb0a4af4cc5fe4a1ba7149bda" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<f name="abs" id="3fd5558af1bece9fedecc0491ce68a84_396460a12124265812b899d987ba4a78" file="1" linestart="159" lineend="162" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="decltype(auto)">
+<auto/>
+</fpt>
+<p name="x" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="160" cb="1" le="162" ce="1">
+<rx lb="161" cb="5" le="161" ce="27" pvirg="true">
+<co lb="161" cb="12" le="161" ce="27">
+<exp pvirg="true"/>
+<xop lb="161" cb="12" le="161" ce="18" kind="&lt;">
+<drx lb="161" cb="12" kind="lvalue" nm="x"/>
+<n21 lb="161" cb="16" le="161" ce="18">
+<unresolvedconst>
+<ttp/>
+</unresolvedconst>
+<exp pvirg="true"/>
+<il lb="161" cb="17" le="161" ce="18">
+<exp pvirg="true"/>
+</il>
+</n21>
+</xop>
+<uo lb="161" cb="22" le="161" ce="23" kind="-">
+<drx lb="161" cb="23" kind="lvalue" nm="x"/>
+</uo>
+<drx lb="161" cb="27" kind="lvalue" nm="x"/>
+</co>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</ft>
+<cr access="none" depth="0" kind="struct" name="Base" id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac" file="1" linestart="165" lineend="172">
+<cr access="public" kind="struct" name="Base" id="3fd5558af1bece9fedecc0491ce68a84_e8ff080c34297aab0b51ba2c8dbeb6b2" file="1" linestart="165" lineend="165"/>
+<m name="type" id="3fd5558af1bece9fedecc0491ce68a84_8fb886bc2287d5416c6fc5020e4815d0" file="1" linestart="166" lineend="168" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="166" cb="39" le="168" ce="5">
+<rx lb="167" cb="9" le="167" ce="16" pvirg="true">
+<n45 lb="167" cb="16">
+<flit/>
+</n45>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="clone" id="3fd5558af1bece9fedecc0491ce68a84_22bb0f2c47a28f12fa8016eca7bf196e" file="1" linestart="169" lineend="171" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="Base *">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="169" cb="42" le="171" ce="5">
+<rx lb="170" cb="9" le="170" ce="30" pvirg="true">
+<new lb="170" cb="16" le="170" ce="30">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_9b3249454bf0787cfbcda143524490d5"/>
+<exp pvirg="true"/>
+<n10 lb="170" cb="20" le="170" ce="30">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_9b3249454bf0787cfbcda143524490d5"/>
+<temp/>
+<uo lb="170" cb="25" le="170" ce="26" kind="*">
+<n19 lb="170" cb="26"/>
+</uo>
+</n10>
+</new>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_2d42c7d25e84cd6b5933cb68d99ffc41" file="1" linestart="165" implicit="true" operator="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="Base &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const Base &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_017b20657c06dd6ccd00caaf2d160e04" file="1" linestart="165" implicit="true" operator="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="Base &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="Base &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<d name="~Base" id="3fd5558af1bece9fedecc0491ce68a84_b3240d40314bad51206a0211d37f3c82" file="1" linestart="165" lineend="165" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<c name="Base" id="3fd5558af1bece9fedecc0491ce68a84_7c3281b8b1bef39048d83312fe4d1b3f" file="1" linestart="165" lineend="165" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="165" cb="8"/>
+
+</Stmt>
+</c>
+<c name="Base" id="3fd5558af1bece9fedecc0491ce68a84_9b3249454bf0787cfbcda143524490d5" file="1" linestart="165" lineend="165" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const Base &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="165" cb="8"/>
+
+</Stmt>
+</c>
+<c name="Base" id="3fd5558af1bece9fedecc0491ce68a84_17f80b7a36f0a11b095e527a9f69d832" file="1" linestart="165" lineend="165" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="Base &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="165" cb="8"/>
+
+</Stmt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="struct" name="SimilarBase" id="3fd5558af1bece9fedecc0491ce68a84_f6eb994dc2df1d2de08e775716a9321d" file="1" linestart="174" lineend="182">
+<cr access="public" kind="struct" name="SimilarBase" id="3fd5558af1bece9fedecc0491ce68a84_67f32399a945b376dbdb75607b5aad19" file="1" linestart="174" lineend="174"/>
+<c name="SimilarBase" id="3fd5558af1bece9fedecc0491ce68a84_29fc18c6e2f122edae6c4e8a9437912e" file="1" linestart="176" lineend="176" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="base" proto="const Base &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="176" cb="37" le="176" ce="38"/>
+
+</Stmt>
+</c>
+<c name="SimilarBase" id="3fd5558af1bece9fedecc0491ce68a84_f4c5576491eae69ff3bcf9e98293934b" file="1" linestart="174" lineend="174" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const SimilarBase &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_f6eb994dc2df1d2de08e775716a9321d"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<c name="SimilarBase" id="3fd5558af1bece9fedecc0491ce68a84_1eb7d6ff20013fdd303b88d8550008db" file="1" linestart="174" lineend="174" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="SimilarBase &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_f6eb994dc2df1d2de08e775716a9321d"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="174" cb="8"/>
+
+</Stmt>
+</c>
+<d name="~SimilarBase" id="3fd5558af1bece9fedecc0491ce68a84_dc50cba536029929200cff11c0be4212" file="1" linestart="174" lineend="174" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+</cr>
+<cr access="none" depth="1" kind="struct" name="Derived" id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf" file="1" linestart="184" lineend="191">
+<base access="public">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</base>
+<cr access="public" kind="struct" name="Derived" id="3fd5558af1bece9fedecc0491ce68a84_2abf008cb9aabdf8124793751d407165" file="1" linestart="184" lineend="184"/>
+<m name="type" id="3fd5558af1bece9fedecc0491ce68a84_00172a37553496e3cac07e43496a7404" file="1" linestart="185" lineend="187" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="int">
+<bt name="int"/>
+</fpt>
+<Stmt>
+<u lb="185" cb="48" le="187" ce="5">
+<rx lb="186" cb="9" le="186" ce="16" pvirg="true">
+<n45 lb="186" cb="16">
+<flit/>
+</n45>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="clone" id="3fd5558af1bece9fedecc0491ce68a84_134ad9e4a13cb146a12e76ec6791720f" file="1" linestart="188" lineend="190" virtual="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="Derived *">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</pt>
+</fpt>
+<Stmt>
+<u lb="188" cb="54" le="190" ce="5">
+<rx lb="189" cb="9" le="189" ce="33" pvirg="true">
+<new lb="189" cb="16" le="189" ce="33">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_03a3a64c9d789e3dd493832ae253d675"/>
+<exp pvirg="true"/>
+<n10 lb="189" cb="20" le="189" ce="33">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_03a3a64c9d789e3dd493832ae253d675"/>
+<temp/>
+<uo lb="189" cb="28" le="189" ce="29" kind="*">
+<n19 lb="189" cb="29"/>
+</uo>
+</n10>
+</new>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_41bb0485f8fc43028ddcc02b79f3c9d7" file="1" linestart="184" implicit="true" operator="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="Derived &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="const Derived &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<m name="operator=" id="3fd5558af1bece9fedecc0491ce68a84_06b32434bbdeadf4b0aae2ebff385ddc" file="1" linestart="184" implicit="true" operator="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="Derived &amp;">
+<lrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</lrf>
+</fpt>
+<p name="" proto="Derived &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</m>
+<d name="~Derived" id="3fd5558af1bece9fedecc0491ce68a84_12c53701bc4ce50ee9d28b4f6cea78a5" file="1" linestart="184" lineend="184" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<c name="Derived" id="3fd5558af1bece9fedecc0491ce68a84_49d2eb966afc2cae7dbc9cf1955bc788" file="1" linestart="184" lineend="184" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<BaseInit>
+<n10 lb="184" cb="8">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_7c3281b8b1bef39048d83312fe4d1b3f"/>
+<temp/>
+</n10>
+
+</BaseInit>
+<Stmt>
+<u lb="184" cb="8"/>
+
+</Stmt>
+</c>
+<c name="Derived" id="3fd5558af1bece9fedecc0491ce68a84_03a3a64c9d789e3dd493832ae253d675" file="1" linestart="184" lineend="184" copyconst="true" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const Derived &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<BaseInit>
+<n10 lb="184" cb="8">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_9b3249454bf0787cfbcda143524490d5"/>
+<temp/>
+<n32 lb="184" cb="8">
+<drx lb="184" cb="8" kind="lvalue" nm=""/>
+</n32>
+</n10>
+
+</BaseInit>
+<Stmt>
+<u lb="184" cb="8"/>
+
+</Stmt>
+</c>
+<c name="Derived" id="3fd5558af1bece9fedecc0491ce68a84_dc02cc17effa808826d31c34f45abe49" file="1" linestart="184" lineend="184" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="Derived &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+</cr>
+<f name="useConvertible" id="3fd5558af1bece9fedecc0491ce68a84_8f164f471f354544e5ac174fff366ee4" file="1" linestart="193" lineend="200" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="193" cb="23" le="200" ce="1">
+<dst lb="195" cb="5" le="195" ce="82">
+<exp pvirg="true"/>
+<Var nm="isConvertible1" value="true">
+<QualType const="true">
+<bt name="bool"/>
+</QualType>
+<n32 lb="195" cb="37" le="195" ce="77">
+<drx lb="195" cb="37" le="195" ce="77" kind="lvalue" id="1b4acc8dde89899ea77bbd6c536e00d0_59533a95ed8965943872704845b566cb" nm="value"/>
+</n32>
+</Var>
+</dst>
+<dst lb="196" cb="5" le="196" ce="82">
+<exp pvirg="true"/>
+<Var nm="isConvertible2" value="true">
+<QualType const="true">
+<bt name="bool"/>
+</QualType>
+<n32 lb="196" cb="37" le="196" ce="77">
+<drx lb="196" cb="37" le="196" ce="77" kind="lvalue" id="1b4acc8dde89899ea77bbd6c536e00d0_59533a95ed8965943872704845b566cb" nm="value"/>
+</n32>
+</Var>
+</dst>
+<dst lb="197" cb="5" le="197" ce="78">
+<exp pvirg="true"/>
+<Var nm="isConvertible3" value="true">
+<QualType const="true">
+<bt name="bool"/>
+</QualType>
+<n32 lb="197" cb="37" le="197" ce="73">
+<drx lb="197" cb="37" le="197" ce="73" kind="lvalue" id="1b4acc8dde89899ea77bbd6c536e00d0_59533a95ed8965943872704845b566cb" nm="value"/>
+</n32>
+</Var>
+</dst>
+<dst lb="198" cb="5" le="198" ce="77">
+<exp pvirg="true"/>
+<Var nm="isConvertible4" value="true">
+<QualType const="true">
+<bt name="bool"/>
+</QualType>
+<n32 lb="198" cb="37" le="198" ce="72">
+<drx lb="198" cb="37" le="198" ce="72" kind="lvalue" id="1b4acc8dde89899ea77bbd6c536e00d0_59533a95ed8965943872704845b566cb" nm="value"/>
+</n32>
+</Var>
+</dst>
+</u>
+
+</Stmt>
+</f>
+<f name="useCovariantReturnTypes" id="3fd5558af1bece9fedecc0491ce68a84_b09655988733aa037514250977bf6dea" file="1" linestart="202" lineend="210" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="202" cb="32" le="210" ce="1">
+<dst lb="203" cb="5" le="203" ce="35">
+<exp pvirg="true"/>
+<Var nm="pDerived">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</pt>
+<n32 lb="203" cb="22" le="203" ce="34">
+<new lb="203" cb="22" le="203" ce="34">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_49d2eb966afc2cae7dbc9cf1955bc788"/>
+<exp pvirg="true"/>
+<n10 lb="203" cb="26" le="203" ce="34">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_49d2eb966afc2cae7dbc9cf1955bc788"/>
+<temp/>
+</n10>
+</new>
+</n32>
+</Var>
+</dst>
+<dst lb="204" cb="5" le="204" ce="38">
+<exp pvirg="true"/>
+<Var nm="pCloned">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_0eeb6210b6c671f2c9528144639e8dac"/>
+</rt>
+</pt>
+<mce lb="204" cb="21" le="204" ce="37" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_22bb0f2c47a28f12fa8016eca7bf196e">
+<exp pvirg="true"/>
+<mex lb="204" cb="21" le="204" ce="31" id="3fd5558af1bece9fedecc0491ce68a84_22bb0f2c47a28f12fa8016eca7bf196e" nm="clone" arrow="1">
+<n32 lb="204" cb="21">
+<n32 lb="204" cb="21">
+<drx lb="204" cb="21" kind="lvalue" nm="pDerived"/>
+</n32>
+</n32>
+</mex>
+</mce>
+</Var>
+</dst>
+<ocx lb="205" cb="5" le="205" ce="42" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_d33445cdb753f92a6c0b97ecb40fd870">
+<exp pvirg="true"/>
+<n32 lb="205" cb="34">
+<drx lb="205" cb="34" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_d33445cdb753f92a6c0b97ecb40fd870" nm="operator&lt;&lt;"/>
+</n32>
+<ocx lb="205" cb="5" le="205" ce="32" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_b80c76f34b048b1a98ab13314350861d">
+<exp pvirg="true"/>
+<n32 lb="205" cb="15">
+<drx lb="205" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_b80c76f34b048b1a98ab13314350861d" nm="operator&lt;&lt;"/>
+</n32>
+<drx lb="205" cb="5" le="205" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<mce lb="205" cb="18" le="205" ce="32" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_8fb886bc2287d5416c6fc5020e4815d0">
+<exp pvirg="true"/>
+<mex lb="205" cb="18" le="205" ce="27" id="3fd5558af1bece9fedecc0491ce68a84_8fb886bc2287d5416c6fc5020e4815d0" nm="type" arrow="1">
+<n32 lb="205" cb="18">
+<n32 lb="205" cb="18">
+<drx lb="205" cb="18" kind="lvalue" nm="pCloned"/>
+</n32>
+</n32>
+</mex>
+</mce>
+</ocx>
+<n32 lb="205" cb="37" le="205" ce="42">
+<drx lb="205" cb="37" le="205" ce="42" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_519f22e86fa75f44ad68a8158aae2a36" nm="endl">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+</ocx>
+<dst lb="206" cb="5" le="206" ce="61">
+<exp pvirg="true"/>
+<Var nm="pDerivedClone">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</pt>
+<dcast lb="206" cb="30" le="206" ce="60">
+<cast cast="Dynamic">
+<pt>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_a05f4c121c7ab209ae655af0e19f2edf"/>
+</rt>
+</pt>
+</cast>
+<n32 lb="206" cb="53">
+<drx lb="206" cb="53" kind="lvalue" nm="pCloned"/>
+</n32>
+</dcast>
+</Var>
+</dst>
+<ocx lb="207" cb="5" le="207" ce="49" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_d33445cdb753f92a6c0b97ecb40fd870">
+<exp pvirg="true"/>
+<n32 lb="207" cb="41">
+<drx lb="207" cb="41" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_d33445cdb753f92a6c0b97ecb40fd870" nm="operator&lt;&lt;"/>
+</n32>
+<ocx lb="207" cb="5" le="207" ce="39" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_b80c76f34b048b1a98ab13314350861d">
+<exp pvirg="true"/>
+<n32 lb="207" cb="15">
+<drx lb="207" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_b80c76f34b048b1a98ab13314350861d" nm="operator&lt;&lt;"/>
+</n32>
+<drx lb="207" cb="5" le="207" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<mce lb="207" cb="18" le="207" ce="39" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_00172a37553496e3cac07e43496a7404">
+<exp pvirg="true"/>
+<mex lb="207" cb="18" le="207" ce="34" id="3fd5558af1bece9fedecc0491ce68a84_00172a37553496e3cac07e43496a7404" nm="type" arrow="1">
+<n32 lb="207" cb="18">
+<n32 lb="207" cb="18">
+<drx lb="207" cb="18" kind="lvalue" nm="pDerivedClone"/>
+</n32>
+</n32>
+</mex>
+</mce>
+</ocx>
+<n32 lb="207" cb="44" le="207" ce="49">
+<drx lb="207" cb="44" le="207" ce="49" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_519f22e86fa75f44ad68a8158aae2a36" nm="endl">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+</ocx>
+<n13 lb="208" cb="5" le="208" ce="12">
+<exp pvirg="true"/>
+<n32 lb="208" cb="12">
+<drx lb="208" cb="12" kind="lvalue" nm="pDerived"/>
+</n32>
+</n13>
+<n13 lb="209" cb="5" le="209" ce="12">
+<exp pvirg="true"/>
+<n32 lb="209" cb="12">
+<drx lb="209" cb="12" kind="lvalue" nm="pCloned"/>
+</n32>
+</n13>
+</u>
+
+</Stmt>
+</f>
+<cr access="none" depth="0" kind="struct" name="W" id="3fd5558af1bece9fedecc0491ce68a84_240f1beff578be499e4ef9879866b90e" file="1" linestart="212" lineend="238">
+<cr access="public" kind="struct" name="W" id="3fd5558af1bece9fedecc0491ce68a84_3daf4a00873aac3d7e44df660bafb91b" file="1" linestart="212" lineend="212"/>
+<c name="W" id="3fd5558af1bece9fedecc0491ce68a84_a47a059f17b70d26431e2a1903843b74" file="1" linestart="213" lineend="213" access="public">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</c>
+<ft name="twice" id="3fd5558af1bece9fedecc0491ce68a84_af52c1d3879d8861412f39aef31a6dad" file="1" linestart="214" lineend="218">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_c24384108dee73643b2e915282bd7c5c" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="W" id="3fd5558af1bece9fedecc0491ce68a84_c081c6ce995f24182ff4730f48ffedbe" depth="0" index="1" proto="type-parameter-0-1">
+<ety>
+<tss>
+<templatebase id="c3076f10aa22f384dadfc4ecf1c7fccd_4894206844b690fb9c92770e0dfc1a2c"/>
+<template_arguments>
+<Stmt>
+<n35 lb="214" cb="56" le="214" ce="77">
+<exp pvirg="true"/>
+</n35>
+
+</Stmt>
+<bt name="void"/>
+</template_arguments>
+</tss>
+</ety>
+</ttp>
+</template_parameters>
+<m name="twice" id="3fd5558af1bece9fedecc0491ce68a84_262d8456a08e57fba3d63d41cc0ba9b4" file="1" linestart="215" lineend="218" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="T">
+<ttp/>
+</fpt>
+<p name="t" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="216" cb="5" le="218" ce="5">
+<rx lb="217" cb="9" le="217" ce="21" pvirg="true">
+<xop lb="217" cb="16" le="217" ce="21" kind="*">
+<drx lb="217" cb="16" kind="lvalue" nm="t"/>
+<n21 lb="217" cb="18" le="217" ce="21">
+<unresolvedconst>
+<ttp/>
+</unresolvedconst>
+<exp pvirg="true"/>
+<il lb="217" cb="19" le="217" ce="21">
+<exp pvirg="true"/>
+<n45 lb="217" cb="20">
+<flit/>
+</n45>
+</il>
+</n21>
+</xop>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</ft>
+<ft name="operator()" id="3fd5558af1bece9fedecc0491ce68a84_330414c0fcda2402123b618393675f74" file="1" linestart="220" lineend="224">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_cb718cc2dc2115a358fd71e652d56551" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<m name="operator()" id="3fd5558af1bece9fedecc0491ce68a84_2ad7ba1f4fbd3e52857f24c060d88555" file="1" linestart="221" lineend="224" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="T">
+<ttp/>
+</fpt>
+<p name="t" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="" proto="typename std::enable_if&lt;std::is_integral&lt;T&gt;::value, void&gt;::type *" isPtr="true" init="true" access2="none">
+<pt>
+<DependentName/>
+</pt>
+<Stmt>
+<n16 lb="221" cb="97">
+<exp pvirg="true"/>
+</n16>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="222" cb="5" le="224" ce="5">
+<rx lb="223" cb="9" le="223" ce="21" pvirg="true">
+<xop lb="223" cb="16" le="223" ce="21" kind="*">
+<drx lb="223" cb="16" kind="lvalue" nm="t"/>
+<n21 lb="223" cb="18" le="223" ce="21">
+<unresolvedconst>
+<ttp/>
+</unresolvedconst>
+<exp pvirg="true"/>
+<il lb="223" cb="19" le="223" ce="21">
+<exp pvirg="true"/>
+<n45 lb="223" cb="20">
+<flit/>
+</n45>
+</il>
+</n21>
+</xop>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</ft>
+<ft name="forth" id="3fd5558af1bece9fedecc0491ce68a84_e5c91ba2674fd4bd59a4b8a8f113f50e" file="1" linestart="232" lineend="236">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_3a274b0cf8055d8976aae25dfd32a20b" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<m name="forth" id="3fd5558af1bece9fedecc0491ce68a84_917c2f12fac7d1ff8ec8508eea6adec2" file="1" linestart="233" lineend="236" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="T">
+<ttp/>
+</fpt>
+<p name="t" proto="const T &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="" proto="typename std::enable_if&lt;std::is_integral&lt;T&gt;::value, void&gt;::type *" isPtr="true" init="true" access2="none">
+<pt>
+<DependentName/>
+</pt>
+<Stmt>
+<n16 lb="233" cb="99">
+<exp pvirg="true"/>
+</n16>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="234" cb="5" le="236" ce="5">
+<rx lb="235" cb="9" le="235" ce="21" pvirg="true">
+<xop lb="235" cb="16" le="235" ce="21" kind="*">
+<drx lb="235" cb="16" kind="lvalue" nm="t"/>
+<n21 lb="235" cb="18" le="235" ce="21">
+<unresolvedconst>
+<ttp/>
+</unresolvedconst>
+<exp pvirg="true"/>
+<il lb="235" cb="19" le="235" ce="21">
+<exp pvirg="true"/>
+<n45 lb="235" cb="20">
+<flit/>
+</n45>
+</il>
+</n21>
+</xop>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</ft>
+<d name="~W" id="3fd5558af1bece9fedecc0491ce68a84_a5941135dd8d3f7ac9fd9c8d4e07fb71" file="1" linestart="212" lineend="212" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+</d>
+<c name="W" id="3fd5558af1bece9fedecc0491ce68a84_e89ba2eecf19052ce36672415a6bd179" file="1" linestart="212" lineend="212" copyconst="true" implicit="true" access="public" inline="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="const W &amp;" isRef="true" isLiteral="true" access2="none">
+<lrf>
+<QualType const="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_240f1beff578be499e4ef9879866b90e"/>
+</rt>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+</c>
+<c name="W" id="3fd5558af1bece9fedecc0491ce68a84_b286b5d8f4a93d52a2d3a4c82cd1752e" file="1" linestart="212" lineend="212" implicit="true" access="public" inline="true" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="W &amp;&amp;" isRef="true" isLiteral="true" access2="none">
+<rrf>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_240f1beff578be499e4ef9879866b90e"/>
+</rt>
+</rrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="212" cb="8"/>
+
+</Stmt>
+</c>
+</cr>
+<cr access="none" depth="0" kind="struct" name="T" id="3fd5558af1bece9fedecc0491ce68a84_758cee7a865ac07050f87902c1a0aa1f" file="1" linestart="240" lineend="250">
+<cr access="public" kind="struct" name="T" id="3fd5558af1bece9fedecc0491ce68a84_0ff0428c7d66b7db2aa2eb8db4f84c6c" file="1" linestart="240" lineend="240"/>
+<e parent="3fd5558af1bece9fedecc0491ce68a84_758cee7a865ac07050f87902c1a0aa1f" access="public" name="" id="3fd5558af1bece9fedecc0491ce68a84_422d3f3f304df76e706fa21d98e8dee5" file="1" linestart="241" lineend="241" fixed="true">
+<promotion_type>
+<bt name="int"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="int_t" id="3fd5558af1bece9fedecc0491ce68a84_1f3c4587645fd616373a836497d744d4" file="1" linestart="241" lineend="241">
+<et>
+<e id="3fd5558af1bece9fedecc0491ce68a84_422d3f3f304df76e706fa21d98e8dee5"/>
+</et>
+</ec>
+<ec name="float_t" id="3fd5558af1bece9fedecc0491ce68a84_ed5e9c84d97cac15e320b9d4ce0f3d5b" file="1" linestart="241" lineend="241">
+<et>
+<e id="3fd5558af1bece9fedecc0491ce68a84_422d3f3f304df76e706fa21d98e8dee5"/>
+</et>
+</ec>
+</e>
+<fl name="m_type" id="3fd5558af1bece9fedecc0491ce68a84_5432c3da286b9a7dc2d57c961d5f34f5" file="1" linestart="241" lineend="241" isLiteral="true" access="public" proto="enum (anonymous enum at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\main.cpp:241:5)">
+<ety>
+<et>
+<e id="3fd5558af1bece9fedecc0491ce68a84_422d3f3f304df76e706fa21d98e8dee5"/>
+</et>
+</ety>
+</fl>
+<ft name="T" id="3fd5558af1bece9fedecc0491ce68a84_3b2183e5035ebee98f436b724cecd664" file="1" linestart="242" lineend="244">
+<template_parameters>
+<ttp name="Integer" id="3fd5558af1bece9fedecc0491ce68a84_325ad410aa2cd3234af7012bf75bc367" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="" id="3fd5558af1bece9fedecc0491ce68a84_c2435c67cc82cc5212712c0daefc567a" depth="0" index="1" proto="type-parameter-0-1">
+<ety>
+<tss>
+<templatebase id="c3076f10aa22f384dadfc4ecf1c7fccd_4894206844b690fb9c92770e0dfc1a2c"/>
+<template_arguments>
+<Stmt>
+<n35 lb="243" cb="33" le="243" ce="60">
+<exp pvirg="true"/>
+</n35>
+
+</Stmt>
+</template_arguments>
+</tss>
+</ety>
+</ttp>
+</template_parameters>
+<c name="T" id="3fd5558af1bece9fedecc0491ce68a84_6b8e0ade81d11cee28d9ae5067ee82c9" file="1" linestart="244" lineend="244" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="Integer" access2="none">
+<ttp/>
+<Stmt>
+
+</Stmt>
+</p>
+<initlist id="3fd5558af1bece9fedecc0491ce68a84_5432c3da286b9a7dc2d57c961d5f34f5">
+<Stmt>
+<drx lb="244" cb="25" id="3fd5558af1bece9fedecc0491ce68a84_1f3c4587645fd616373a836497d744d4" nm="int_t"/>
+
+</Stmt>
+</initlist>
+<Stmt>
+<u lb="244" cb="32" le="244" ce="33"/>
+
+</Stmt>
+</c>
+</ft>
+</cr>
+<tm access="none" kind="struct" name="TypeDeclarer" id="3fd5558af1bece9fedecc0491ce68a84_c55e95e818906525ad7bb676a67e5b4a" file="1" linestart="252" lineend="253">
+<template_parameters>
+<ttp name="T" id="3fd5558af1bece9fedecc0491ce68a84_d5d6524139546c31bf3f85f8f6d46e1c" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" kind="struct" name="TypeDeclarer" id="3fd5558af1bece9fedecc0491ce68a84_c55e95e818906525ad7bb676a67e5b4a" file="1" linestart="253" lineend="253"/>
+</tm>
+<f name="usePrint" id="3fd5558af1bece9fedecc0491ce68a84_d2ef1ce3358de9a3b78f639769c5a243" file="1" linestart="255" lineend="255" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="useReplaceAndPrint" id="3fd5558af1bece9fedecc0491ce68a84_3a9c42cfc1827701e0bf29520eccf11b" file="1" linestart="256" lineend="256" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="useSuperSubClass" id="3fd5558af1bece9fedecc0491ce68a84_57bfa6d31409337a52bb33c964a55f56" file="1" linestart="257" lineend="257" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="printHierarchy" id="3fd5558af1bece9fedecc0491ce68a84_ec34ef503c7ad148aabfbc11482f345e" file="1" linestart="258" lineend="258" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="useLeaf" id="3fd5558af1bece9fedecc0491ce68a84_f445632157384d84b338da3e218e9e93" file="1" linestart="259" lineend="259" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="useGenLinearHierarchy" id="3fd5558af1bece9fedecc0491ce68a84_784efc06b8beb9e9d45eb607ea3b5cb4" file="1" linestart="260" lineend="260" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="useChuncks" id="3fd5558af1bece9fedecc0491ce68a84_1e846cf6548b00b7dd9ab50b369dbc32" file="1" linestart="261" lineend="261" access="none">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+</f>
+<f name="main" id="3fd5558af1bece9fedecc0491ce68a84_e2a667621eaa0de46d1bb829ef06282a" file="1" linestart="263" lineend="346" entry="true" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="int">
+<bt name="int"/>
+</fpt>
+<p name="argc" proto="int" isLiteral="true" isPrimitive="true" access2="none">
+<bt name="int"/>
+<Stmt>
+
+</Stmt>
+</p>
+<p name="argv" proto="const char **" isPtr="true" isLiteral="true" access2="none">
+<Decayed/>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="263" cb="41" le="346" ce="1">
+<dst lb="266" cb="5" le="266" ce="21">
+<exp pvirg="true"/>
+<Var nm="x" value="true">
+<auto/>
+<ce lb="266" cb="14" le="266" ce="20" nbparm="1" id="4d4ab2cd77f1e02aa6114e2e6b09633f_bbbad1aa4cff689fb4ab475cd7bae6a4">
+<exp pvirg="true"/>
+<n32 lb="266" cb="14">
+<drx lb="266" cb="14" kind="lvalue" id="4d4ab2cd77f1e02aa6114e2e6b09633f_bbbad1aa4cff689fb4ab475cd7bae6a4" nm="abs"/>
+</n32>
+<uo lb="266" cb="18" le="266" ce="19" kind="-">
+<n45 lb="266" cb="19">
+<flit/>
+</n45>
+</uo>
+</ce>
+</Var>
+</dst>
+<dst lb="267" cb="5" le="267" ce="16">
+<exp pvirg="true"/>
+<Var nm="s" value="true">
+<auto/>
+<uo lb="267" cb="14" le="267" ce="15" kind="-">
+<n45 lb="267" cb="15">
+<flit/>
+</n45>
+</uo>
+</Var>
+</dst>
+<ce lb="269" cb="2" le="269" ce="13" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_1e846cf6548b00b7dd9ab50b369dbc32">
+<exp pvirg="true"/>
+<n32 lb="269" cb="2">
+<drx lb="269" cb="2" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_1e846cf6548b00b7dd9ab50b369dbc32" nm="useChuncks"/>
+</n32>
+</ce>
+<ce lb="271" cb="2" le="271" ce="24" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_784efc06b8beb9e9d45eb607ea3b5cb4">
+<exp pvirg="true"/>
+<n32 lb="271" cb="2">
+<drx lb="271" cb="2" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_784efc06b8beb9e9d45eb607ea3b5cb4" nm="useGenLinearHierarchy"/>
+</n32>
+</ce>
+<ce lb="273" cb="5" le="273" ce="13" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_f445632157384d84b338da3e218e9e93">
+<exp pvirg="true"/>
+<n32 lb="273" cb="5">
+<drx lb="273" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_f445632157384d84b338da3e218e9e93" nm="useLeaf"/>
+</n32>
+</ce>
+<ce lb="275" cb="5" le="275" ce="20" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_ec34ef503c7ad148aabfbc11482f345e">
+<exp pvirg="true"/>
+<n32 lb="275" cb="5">
+<drx lb="275" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_ec34ef503c7ad148aabfbc11482f345e" nm="printHierarchy"/>
+</n32>
+</ce>
+<ce lb="277" cb="5" le="277" ce="22" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_57bfa6d31409337a52bb33c964a55f56">
+<exp pvirg="true"/>
+<n32 lb="277" cb="5">
+<drx lb="277" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_57bfa6d31409337a52bb33c964a55f56" nm="useSuperSubClass"/>
+</n32>
+</ce>
+<ce lb="279" cb="5" le="279" ce="24" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_3a9c42cfc1827701e0bf29520eccf11b">
+<exp pvirg="true"/>
+<n32 lb="279" cb="5">
+<drx lb="279" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_3a9c42cfc1827701e0bf29520eccf11b" nm="useReplaceAndPrint"/>
+</n32>
+</ce>
+<ce lb="281" cb="5" le="281" ce="14" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_d2ef1ce3358de9a3b78f639769c5a243">
+<exp pvirg="true"/>
+<n32 lb="281" cb="5">
+<drx lb="281" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_d2ef1ce3358de9a3b78f639769c5a243" nm="usePrint"/>
+</n32>
+</ce>
+<ce lb="283" cb="5" le="283" ce="20" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_8f164f471f354544e5ac174fff366ee4">
+<exp pvirg="true"/>
+<n32 lb="283" cb="5">
+<drx lb="283" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_8f164f471f354544e5ac174fff366ee4" nm="useConvertible"/>
+</n32>
+</ce>
+<ce lb="285" cb="5" le="285" ce="29" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_b09655988733aa037514250977bf6dea">
+<exp pvirg="true"/>
+<n32 lb="285" cb="5">
+<drx lb="285" cb="5" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_b09655988733aa037514250977bf6dea" nm="useCovariantReturnTypes"/>
+</n32>
+</ce>
+<dst lb="288" cb="5" le="288" ce="19">
+<exp pvirg="true"/>
+<Var nm="was" value="true">
+<auto/>
+<n10 lb="288" cb="16" le="288" ce="18">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_b286b5d8f4a93d52a2d3a4c82cd1752e"/>
+<temp/>
+<mte lb="288" cb="16" le="288" ce="18">
+<exp pvirg="true"/>
+<n26 lb="288" cb="16" le="288" ce="18">
+<il lb="288" cb="17" le="288" ce="18">
+<exp pvirg="true"/>
+</il>
+</n26>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="289" cb="5" le="289" ce="21">
+<exp pvirg="true"/>
+<Var nm="res" value="true">
+<bt name="int"/>
+<ocx lb="289" cb="15" le="289" ce="20" nbparm="3" id="3fd5558af1bece9fedecc0491ce68a84_2ad7ba1f4fbd3e52857f24c060d88555">
+<exp pvirg="true"/>
+<n32 lb="289" cb="18" le="289" ce="20">
+<drx lb="289" cb="18" le="289" ce="20" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_2ad7ba1f4fbd3e52857f24c060d88555" nm="operator()">
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="289" cb="15" kind="lvalue" nm="was"/>
+<mte lb="289" cb="19">
+<exp pvirg="true"/>
+<n45 lb="289" cb="19"/>
+</mte>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ocx>
+</Var>
+</dst>
+<dst lb="292" cb="5" le="292" ce="29">
+<exp pvirg="true"/>
+<Var nm="four" value="true">
+<auto/>
+<ce lb="292" cb="17" le="292" ce="28" nbparm="2" id="3fd5558af1bece9fedecc0491ce68a84_917c2f12fac7d1ff8ec8508eea6adec2">
+<exp pvirg="true"/>
+<n32 lb="292" cb="17" le="292" ce="20">
+<drx lb="292" cb="17" le="292" ce="20" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_917c2f12fac7d1ff8ec8508eea6adec2" nm="forth">
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</drx>
+</n32>
+<mte lb="292" cb="26">
+<exp pvirg="true"/>
+<n45 lb="292" cb="26">
+<flit/>
+</n45>
+</mte>
+<n12>
+<exp pvirg="true"/>
+</n12>
+</ce>
+</Var>
+</dst>
+<dst lb="298" cb="5" le="298" ce="27">
+<exp pvirg="true"/>
+<Var nm="tw" value="true">
+<auto/>
+<ce lb="298" cb="15" le="298" ce="26" nbparm="1" id="3fd5558af1bece9fedecc0491ce68a84_262d8456a08e57fba3d63d41cc0ba9b4">
+<exp pvirg="true"/>
+<n32 lb="298" cb="15" le="298" ce="18">
+<drx lb="298" cb="15" le="298" ce="18" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_262d8456a08e57fba3d63d41cc0ba9b4" nm="twice">
+<template_arguments>
+<bt name="int"/>
+<bt name="void"/>
+</template_arguments>
+</drx>
+</n32>
+<mte lb="298" cb="24">
+<exp pvirg="true"/>
+<n45 lb="298" cb="24">
+<flit/>
+</n45>
+</mte>
+</ce>
+</Var>
+</dst>
+<dst lb="303" cb="5" le="303" ce="41">
+<exp pvirg="true"/>
+<Var nm="two" value="true">
+<auto/>
+<n10 lb="303" cb="16" le="303" ce="40">
+<typeptr id="26077801bf83fda834940e84538639b4_8478c0ef279fd4e0efe57dc146ac8a62">
+<template_arguments>
+<bt name="int"/>
+<bt name="double"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="303" cb="16" le="303" ce="40">
+<exp pvirg="true"/>
+<ce lb="303" cb="16" le="303" ce="40" nbparm="2" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793">
+<exp pvirg="true"/>
+<n32 lb="303" cb="16" le="303" ce="21">
+<drx lb="303" cb="16" le="303" ce="21" kind="lvalue" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793" nm="make_pair">
+<template_arguments>
+<bt name="int"/>
+<bt name="double"/>
+</template_arguments>
+</drx>
+</n32>
+<mte lb="303" cb="31">
+<exp pvirg="true"/>
+<n45 lb="303" cb="31">
+<flit/>
+</n45>
+</mte>
+<mte lb="303" cb="35">
+<exp pvirg="true"/>
+<n40 lb="303" cb="35">
+<flit/>
+</n40>
+</mte>
+</ce>
+</mte>
+</n10>
+</Var>
+</dst>
+<dst lb="304" cb="5" le="304" ce="37">
+<exp pvirg="true"/>
+<Var nm="five" value="true">
+<ety>
+<tss>
+<templatebase id="26077801bf83fda834940e84538639b4_588c02fb583a80daabf4c37e3fd82a49"/>
+<template_arguments>
+<bt name="int"/>
+<bt name="double"/>
+</template_arguments>
+</tss>
+</ety>
+<n10 lb="304" cb="27" le="304" ce="36">
+<typeptr id="26077801bf83fda834940e84538639b4_da0e56d0482678a20afc49907509fd9f">
+<template_arguments>
+<bt name="int"/>
+<bt name="double"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<n32 lb="304" cb="33">
+<drx lb="304" cb="33" kind="lvalue" nm="two"/>
+</n32>
+</n10>
+</Var>
+</dst>
+<dst lb="305" cb="5" le="305" ce="43">
+<exp pvirg="true"/>
+<Var nm="three" value="true">
+<auto/>
+<n10 lb="305" cb="18" le="305" ce="42">
+<typeptr id="26077801bf83fda834940e84538639b4_8478c0ef279fd4e0efe57dc146ac8a62">
+<template_arguments>
+<bt name="int"/>
+<bt name="double"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<mte lb="305" cb="18" le="305" ce="42">
+<exp pvirg="true"/>
+<ce lb="305" cb="18" le="305" ce="42" nbparm="2" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793">
+<exp pvirg="true"/>
+<n32 lb="305" cb="18" le="305" ce="23">
+<drx lb="305" cb="18" le="305" ce="23" kind="lvalue" id="26077801bf83fda834940e84538639b4_7c81cda5854d9965ae58144ae781d793" nm="make_pair">
+<template_arguments>
+<bt name="int"/>
+<bt name="double"/>
+</template_arguments>
+</drx>
+</n32>
+<mte lb="305" cb="33">
+<exp pvirg="true"/>
+<n45 lb="305" cb="33">
+<flit/>
+</n45>
+</mte>
+<mte lb="305" cb="37">
+<exp pvirg="true"/>
+<n40 lb="305" cb="37">
+<flit/>
+</n40>
+</mte>
+</ce>
+</mte>
+</n10>
+</Var>
+</dst>
+<ocx lb="306" cb="5" le="306" ce="11" nbparm="2" id="26077801bf83fda834940e84538639b4_95488a8653b0523ea9bca67cd56f7054">
+<exp pvirg="true"/>
+<n32 lb="306" cb="9">
+<drx lb="306" cb="9" kind="lvalue" id="26077801bf83fda834940e84538639b4_95488a8653b0523ea9bca67cd56f7054" nm="operator="/>
+</n32>
+<drx lb="306" cb="5" kind="lvalue" nm="two"/>
+<n32 lb="306" cb="11">
+<drx lb="306" cb="11" kind="lvalue" nm="three"/>
+</n32>
+</ocx>
+<dst lb="308" cb="5" le="308" ce="47">
+<exp pvirg="true"/>
+<Var nm="is_iter"/>
+</dst>
+<dst lb="310" cb="5" le="310" ce="27">
+<exp pvirg="true"/>
+<Var nm="in" value="true">
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a3c046b3f5044976c40bce5e86fdfaee_2f8de43d9eabe3226f589c3c604bfb16"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+<n10 lb="310" cb="13" le="310" ce="26">
+<typeptr id="a3c046b3f5044976c40bce5e86fdfaee_bb21fae0a532c59365fb69efa5e7fb30">
+<template_arguments>
+<bt name="int"/>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<bt name="int"/>
+</template_arguments>
+</typeptr>
+<temp/>
+<drx lb="310" cb="17" le="310" ce="22" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_7b0e10ed66791696090a7ddcd9ccb623" nm="cin"/>
+</n10>
+</Var>
+</dst>
+<dst lb="311" cb="5" le="311" ce="19">
+<exp pvirg="true"/>
+<Var nm="end" value="true">
+<Tdef>
+<ety>
+<tss>
+<templatebase id="a3c046b3f5044976c40bce5e86fdfaee_2f8de43d9eabe3226f589c3c604bfb16"/>
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</tss>
+</ety>
+</Tdef>
+<n10 lb="311" cb="13" le="311" ce="18">
+<typeptr id="a3c046b3f5044976c40bce5e86fdfaee_604ced0912b0ae55125b512a254a3ca8">
+<template_arguments>
+<bt name="int"/>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<bt name="int"/>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+</Var>
+</dst>
+<dst lb="313" cb="5" le="313" ce="50">
+<exp pvirg="true"/>
+<Var nm="p" value="true">
+<ety>
+<tss>
+<templatebase id="25660966a4a44d2c6610cbb32a932b78_1e604289ea34d6bd69454849772d0a37"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</tss>
+</ety>
+<n10 lb="313" cb="29" le="313" ce="49">
+<typeptr id="25660966a4a44d2c6610cbb32a932b78_c05db4dce6edab0010c36a6e65ab72bb">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+<rt>
+<cts id="25660966a4a44d2c6610cbb32a932b78_604f1078b743f975a1b18033e3721fd8">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<ce lb="313" cb="33" le="313" ce="48" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_ed109e76db3fabd1c83cff2713b6ccd7">
+<exp pvirg="true"/>
+<n32 lb="313" cb="33" le="313" ce="41">
+<drx lb="313" cb="33" le="313" ce="41" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_ed109e76db3fabd1c83cff2713b6ccd7" nm="Create"/>
+</n32>
+</ce>
+</n10>
+</Var>
+</dst>
+<ocx lb="314" cb="5" le="314" ce="20" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_b6c2592d20ed546095b7f9ce9bd38aee">
+<exp pvirg="true"/>
+<n32 lb="314" cb="18">
+<drx lb="314" cb="18" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_b6c2592d20ed546095b7f9ce9bd38aee" nm="operator="/>
+</n32>
+<mex lb="314" cb="5" le="314" ce="8" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_0dd262f7da766ba17217e5ec5716db70" nm="firstName" arrow="1">
+<ocx lb="314" cb="5" nbparm="1" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328">
+<exp pvirg="true"/>
+<n32 lb="314" cb="6">
+<drx lb="314" cb="6" kind="lvalue" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328" nm="operator-&gt;"/>
+</n32>
+<n32 lb="314" cb="5">
+<drx lb="314" cb="5" kind="lvalue" nm="p"/>
+</n32>
+</ocx>
+</mex>
+<n32 lb="314" cb="20">
+<n52 lb="314" cb="20">
+<slit/>
+</n52>
+</n32>
+</ocx>
+<ocx lb="315" cb="5" le="315" ce="19" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_b6c2592d20ed546095b7f9ce9bd38aee">
+<exp pvirg="true"/>
+<n32 lb="315" cb="17">
+<drx lb="315" cb="17" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_b6c2592d20ed546095b7f9ce9bd38aee" nm="operator="/>
+</n32>
+<mex lb="315" cb="5" le="315" ce="8" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_e6485e2e87de740aa6a2c4820eb85a20" nm="lastName" arrow="1">
+<ocx lb="315" cb="5" nbparm="1" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328">
+<exp pvirg="true"/>
+<n32 lb="315" cb="6">
+<drx lb="315" cb="6" kind="lvalue" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328" nm="operator-&gt;"/>
+</n32>
+<n32 lb="315" cb="5">
+<drx lb="315" cb="5" kind="lvalue" nm="p"/>
+</n32>
+</ocx>
+</mex>
+<n32 lb="315" cb="19">
+<n52 lb="315" cb="19">
+<slit/>
+</n52>
+</n32>
+</ocx>
+<dst lb="317" cb="5" le="317" ce="35">
+<exp pvirg="true"/>
+<Var nm="o" value="true">
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+<n37 lb="317" cb="12" le="317" ce="34">
+<n10 lb="317" cb="12" le="317" ce="34">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_3dc2e3ac887385ee7f170fcc7ff8ca16"/>
+<temp/>
+<mte lb="317" cb="16">
+<exp pvirg="true"/>
+<n8 lb="317" cb="16" >
+<temp/>
+<n10 lb="317" cb="16">
+<typeptr id="43e57e2314d98c3481e7c5229eab5466_27c29e5ae4008e8e02d1117a50805d4f">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<n32 lb="317" cb="16">
+<n52 lb="317" cb="16">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</mte>
+<mte lb="317" cb="26">
+<exp pvirg="true"/>
+<n8 lb="317" cb="26" >
+<temp/>
+<n10 lb="317" cb="26">
+<typeptr id="43e57e2314d98c3481e7c5229eab5466_27c29e5ae4008e8e02d1117a50805d4f">
+<template_arguments>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_07566aa809aee0bdf1c0fac16e19fa85">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<n32 lb="317" cb="26">
+<n52 lb="317" cb="26">
+<slit/>
+</n52>
+</n32>
+</n10>
+</n8>
+</mte>
+</n10>
+</n37>
+</Var>
+</dst>
+<ocx lb="318" cb="5" le="318" ce="10" nbparm="2" id="3fd5558af1bece9fedecc0491ce68a84_34c67d3084a127d762e290e0150752bd">
+<exp pvirg="true"/>
+<n32 lb="318" cb="7">
+<drx lb="318" cb="7" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_34c67d3084a127d762e290e0150752bd" nm="operator="/>
+</n32>
+<drx lb="318" cb="5" kind="lvalue" nm="o"/>
+<n32 lb="318" cb="9" le="318" ce="10">
+<ocx lb="318" cb="9" le="318" ce="10" nbparm="1" id="25660966a4a44d2c6610cbb32a932b78_9f2776ca313abe86f63a6928cf3a2d05">
+<exp pvirg="true"/>
+<n32 lb="318" cb="9">
+<drx lb="318" cb="9" kind="lvalue" id="25660966a4a44d2c6610cbb32a932b78_9f2776ca313abe86f63a6928cf3a2d05" nm="operator*"/>
+</n32>
+<n32 lb="318" cb="10">
+<drx lb="318" cb="10" kind="lvalue" nm="p"/>
+</n32>
+</ocx>
+</n32>
+</ocx>
+<dst lb="320" cb="5" le="320" ce="45">
+<exp pvirg="true"/>
+<Var nm="pCreator">
+<pt>
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_a70a00cbb9db31e7129ee750441f75e3"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_49945ba919f067995f42207006134745"/>
+</rt>
+</template_arguments>
+</tss>
+</pt>
+<n32 lb="320" cb="38" le="320" ce="44">
+<mce lb="320" cb="38" le="320" ce="44" nbparm="0" id="25660966a4a44d2c6610cbb32a932b78_1c72fda99247adbfd5591f41bf331f01">
+<exp pvirg="true"/>
+<mex lb="320" cb="38" le="320" ce="40" id="25660966a4a44d2c6610cbb32a932b78_1c72fda99247adbfd5591f41bf331f01" nm="get" point="1">
+<n32 lb="320" cb="38">
+<drx lb="320" cb="38" kind="lvalue" nm="p"/>
+</n32>
+</mex>
+</mce>
+</n32>
+</Var>
+</dst>
+<dst lb="324" cb="5" le="324" ce="19">
+<exp pvirg="true"/>
+<Var nm="mgr" value="true">
+<Tdef>
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_ff664a9c64060fb8aff9eebc4247ab7d"/>
+<template_arguments/>
+</tss>
+</Tdef>
+<n10 lb="324" cb="14" le="324" ce="18">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_ae62b078ccaf8bf19edc33580a64927e">
+<template_arguments/>
+</typeptr>
+<temp/>
+</n10>
+</Var>
+</dst>
+<dst lb="325" cb="5" le="325" ce="46">
+<exp pvirg="true"/>
+<Var nm="t" value="true">
+<ety>
+<tss>
+<templatebase id="25660966a4a44d2c6610cbb32a932b78_1e604289ea34d6bd69454849772d0a37"/>
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</tss>
+</ety>
+<n10 lb="325" cb="28" le="325" ce="45">
+<typeptr id="25660966a4a44d2c6610cbb32a932b78_c05db4dce6edab0010c36a6e65ab72bb">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+<rt>
+<cts id="25660966a4a44d2c6610cbb32a932b78_604f1078b743f975a1b18033e3721fd8">
+<template_arguments>
+<rt>
+<cr id="3fd5558af1bece9fedecc0491ce68a84_348f2630d7ba04baf76bdf86347a34d6"/>
+</rt>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</typeptr>
+<temp/>
+<mce lb="325" cb="32" le="325" ce="43" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_c06a9aedbc2ee9ecee42c4be99f224b9">
+<exp pvirg="true"/>
+<mex lb="325" cb="32" le="325" ce="36" id="3fd5558af1bece9fedecc0491ce68a84_c06a9aedbc2ee9ecee42c4be99f224b9" nm="Create" point="1">
+<drx lb="325" cb="32" kind="lvalue" nm="mgr"/>
+</mex>
+</mce>
+</n10>
+</Var>
+</dst>
+<xop lb="326" cb="5" le="326" ce="16" kind="=">
+<mex lb="326" cb="5" le="326" ce="8" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_b7481fda28f837cc3b24c34e4da2747c" nm="value" arrow="1">
+<ocx lb="326" cb="5" nbparm="1" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328">
+<exp pvirg="true"/>
+<n32 lb="326" cb="6">
+<drx lb="326" cb="6" kind="lvalue" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328" nm="operator-&gt;"/>
+</n32>
+<n32 lb="326" cb="5">
+<drx lb="326" cb="5" kind="lvalue" nm="t"/>
+</n32>
+</ocx>
+</mex>
+<n45 lb="326" cb="16">
+<flit/>
+</n45>
+</xop>
+<ocx lb="327" cb="5" le="327" ce="15" nbparm="2" id="43e57e2314d98c3481e7c5229eab5466_b6c2592d20ed546095b7f9ce9bd38aee">
+<exp pvirg="true"/>
+<n32 lb="327" cb="13">
+<drx lb="327" cb="13" kind="lvalue" id="43e57e2314d98c3481e7c5229eab5466_b6c2592d20ed546095b7f9ce9bd38aee" nm="operator="/>
+</n32>
+<mex lb="327" cb="5" le="327" ce="8" kind="lvalue" id="3fd5558af1bece9fedecc0491ce68a84_3b1a1ab4036378ff157070e1f4b6f2e5" nm="name" arrow="1">
+<ocx lb="327" cb="5" nbparm="1" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328">
+<exp pvirg="true"/>
+<n32 lb="327" cb="6">
+<drx lb="327" cb="6" kind="lvalue" id="25660966a4a44d2c6610cbb32a932b78_82e5fc364b0eff63c61e1dadded69328" nm="operator-&gt;"/>
+</n32>
+<n32 lb="327" cb="5">
+<drx lb="327" cb="5" kind="lvalue" nm="t"/>
+</n32>
+</ocx>
+</mex>
+<n32 lb="327" cb="15">
+<n52 lb="327" cb="15">
+<slit/>
+</n52>
+</n32>
+</ocx>
+<fx lb="329" cb="5" le="331" ce="5">
+<drx lb="329" cb="10" kind="lvalue" nm="in"/>
+<ocx lb="329" cb="14" le="329" ce="20" nbparm="2" id="a3c046b3f5044976c40bce5e86fdfaee_a32d49c902dced8fda8f38c4ad8a6714">
+<exp pvirg="true"/>
+<n32 lb="329" cb="17">
+<drx lb="329" cb="17" kind="lvalue" id="a3c046b3f5044976c40bce5e86fdfaee_a32d49c902dced8fda8f38c4ad8a6714" nm="operator!=">
+<template_arguments>
+<bt name="int"/>
+<bt name="char"/>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+<bt name="int"/>
+</template_arguments>
+</drx>
+</n32>
+<n32 lb="329" cb="14">
+<drx lb="329" cb="14" kind="lvalue" nm="in"/>
+</n32>
+<n32 lb="329" cb="20">
+<drx lb="329" cb="20" kind="lvalue" nm="end"/>
+</n32>
+</ocx>
+<ocx lb="329" cb="25" le="329" ce="27" nbparm="1" id="a3c046b3f5044976c40bce5e86fdfaee_6f932a212a67ee443e942e4417bb916c">
+<exp pvirg="true"/>
+<n32 lb="329" cb="25">
+<drx lb="329" cb="25" kind="lvalue" id="a3c046b3f5044976c40bce5e86fdfaee_6f932a212a67ee443e942e4417bb916c" nm="operator++"/>
+</n32>
+<drx lb="329" cb="27" kind="lvalue" nm="in"/>
+</ocx>
+<u lb="329" cb="31" le="331" ce="5">
+<xop lb="330" cb="9" le="330" ce="14" kind="=">
+<drx lb="330" cb="9" kind="lvalue" nm="s"/>
+<n32 lb="330" cb="13" le="330" ce="14">
+<ocx lb="330" cb="13" le="330" ce="14" nbparm="1" id="a3c046b3f5044976c40bce5e86fdfaee_7fb86ed754fea9fec804de3ca20aae94">
+<exp pvirg="true"/>
+<n32 lb="330" cb="13">
+<drx lb="330" cb="13" kind="lvalue" id="a3c046b3f5044976c40bce5e86fdfaee_7fb86ed754fea9fec804de3ca20aae94" nm="operator*"/>
+</n32>
+<n32 lb="330" cb="14">
+<drx lb="330" cb="14" kind="lvalue" nm="in"/>
+</n32>
+</ocx>
+</n32>
+</xop>
+</u>
+</fx>
+<xop lb="332" cb="5" le="332" ce="14" kind="=">
+<drx lb="332" cb="5" kind="lvalue" nm="x"/>
+<ce lb="332" cb="9" le="332" ce="14" nbparm="1" id="4d4ab2cd77f1e02aa6114e2e6b09633f_bbbad1aa4cff689fb4ab475cd7bae6a4">
+<exp pvirg="true"/>
+<n32 lb="332" cb="9">
+<drx lb="332" cb="9" kind="lvalue" id="4d4ab2cd77f1e02aa6114e2e6b09633f_bbbad1aa4cff689fb4ab475cd7bae6a4" nm="abs"/>
+</n32>
+<n32 lb="332" cb="13">
+<drx lb="332" cb="13" kind="lvalue" nm="s"/>
+</n32>
+</ce>
+</xop>
+<dst lb="334" cb="5" le="334" ce="21">
+<exp pvirg="true"/>
+<Var nm="w" value="true">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_06dd429b0289146eb8e69a64cc549648"/>
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<il lb="334" cb="19" le="334" ce="20">
+<exp pvirg="true"/>
+</il>
+</Var>
+</dst>
+<mce lb="335" cb="5" le="335" ce="11" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_5404c8532aa8ff3f1525ff2b69114b7b">
+<exp pvirg="true"/>
+<mex lb="335" cb="5" le="335" ce="7" id="3fd5558af1bece9fedecc0491ce68a84_5404c8532aa8ff3f1525ff2b69114b7b" nm="fun" point="1">
+<drx lb="335" cb="5" kind="lvalue" nm="w"/>
+</mex>
+</mce>
+<mce lb="336" cb="5" le="336" ce="14" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_903cba689b2ed1ecc9901777628054d6">
+<exp pvirg="true"/>
+<mex lb="336" cb="5" le="336" ce="7" id="3fd5558af1bece9fedecc0491ce68a84_903cba689b2ed1ecc9901777628054d6" nm="boring" point="1">
+<drx lb="336" cb="5" kind="lvalue" nm="w"/>
+</mex>
+</mce>
+<dst lb="338" cb="5" le="338" ce="26">
+<exp pvirg="true"/>
+<Var nm="g" value="true">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_265e9def3b39dffd43003b2ea2716c58"/>
+<template_arguments>
+<bt name="int"/>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<n10 lb="338" cb="23" le="338" ce="25">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_ba95394604c511042ab777a82973f4f8">
+<template_arguments>
+<bt name="int"/>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+</Var>
+</dst>
+<mce lb="339" cb="5" le="339" ce="11" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_d1601b4a21c599e0837523f57f4ac28a">
+<exp pvirg="true"/>
+<mex lb="339" cb="5" le="339" ce="7" id="3fd5558af1bece9fedecc0491ce68a84_d1601b4a21c599e0837523f57f4ac28a" nm="fun" point="1">
+<drx lb="339" cb="5" kind="lvalue" nm="g"/>
+</mex>
+</mce>
+<dst lb="341" cb="5" le="341" ce="33">
+<exp pvirg="true"/>
+<Var nm="sg" value="true">
+<tss>
+<templatebase id="3fd5558af1bece9fedecc0491ce68a84_9d284863359f5cfc28ae0ad66f185542"/>
+<template_arguments>
+<bt name="int"/>
+<bt name="char"/>
+</template_arguments>
+</tss>
+<n10 lb="341" cb="29" le="341" ce="32">
+<typeptr id="3fd5558af1bece9fedecc0491ce68a84_875d0b8b7fb54fe39da86b2fda39617a">
+<template_arguments>
+<bt name="int"/>
+<bt name="char"/>
+</template_arguments>
+</typeptr>
+<temp/>
+</n10>
+</Var>
+</dst>
+<mce lb="342" cb="5" le="342" ce="12" nbparm="0" id="3fd5558af1bece9fedecc0491ce68a84_e60eaa311ba68f1325078da561766bbf">
+<exp pvirg="true"/>
+<mex lb="342" cb="5" le="342" ce="8" id="3fd5558af1bece9fedecc0491ce68a84_e60eaa311ba68f1325078da561766bbf" nm="fun" point="1">
+<drx lb="342" cb="5" kind="lvalue" nm="sg"/>
+</mex>
+</mce>
+<ocx lb="344" cb="5" le="344" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="344" cb="15">
+<drx lb="344" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="344" cb="5" le="344" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="344" cb="18">
+<n52 lb="344" cb="18">
+<slit/>
+</n52>
+</n32>
+</ocx>
+<rx lb="345" cb="5" le="345" ce="12" pvirg="true">
+<n45 lb="345" cb="12">
+<flit/>
+</n45>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</tun>
+</Root>

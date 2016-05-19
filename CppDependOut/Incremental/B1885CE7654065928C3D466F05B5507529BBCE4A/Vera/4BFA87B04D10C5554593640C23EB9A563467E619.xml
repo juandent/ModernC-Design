@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+    <file name="C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\Typelist.cpp">
+        <error source="T009" severity="info" line="25" message="comma should be followed by whitespace" />
+        <error source="L005" severity="info" line="28" message="too many consecutive empty lines" />
+        <error source="T009" severity="info" line="29" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="29" message="comma should be followed by whitespace" />
+        <error source="L005" severity="info" line="34" message="too many consecutive empty lines" />
+        <error source="T009" severity="info" line="35" message="comma should be followed by whitespace" />
+        <error source="L005" severity="info" line="38" message="too many consecutive empty lines" />
+        <error source="L001" severity="info" line="42" message="trailing whitespace" />
+        <error source="T009" severity="info" line="43" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="46" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="55" message="comma should be followed by whitespace" />
+        <error source="L005" severity="info" line="58" message="too many consecutive empty lines" />
+        <error source="T009" severity="info" line="63" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="64" message="comma should be followed by whitespace" />
+        <error source="L005" severity="info" line="67" message="too many consecutive empty lines" />
+        <error source="T009" severity="info" line="68" message="comma should be followed by whitespace" />
+        <error source="T011" severity="info" line="79" message="closing curly bracket not in the same line or column" />
+        <error source="L001" severity="info" line="80" message="trailing whitespace" />
+        <error source="L005" severity="info" line="82" message="too many consecutive empty lines" />
+        <error source="T009" severity="info" line="83" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="83" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="85" message="comma should be followed by whitespace" />
+        <error source="T009" severity="info" line="85" message="comma should be followed by whitespace" />
+        <error source="T011" severity="info" line="94" message="closing curly bracket not in the same line or column" />
+        <error source="L005" severity="info" line="97" message="too many consecutive empty lines" />
+        <error source="L001" severity="info" line="99" message="trailing whitespace" />
+        <error source="L005" severity="info" line="104" message="too many consecutive empty lines" />
+        <error source="L001" severity="info" line="106" message="no newline at end of file" />
+        <error source="T011" severity="info" line="106" message="closing curly bracket not in the same line or column" />
+    </file>
+</checkstyle>

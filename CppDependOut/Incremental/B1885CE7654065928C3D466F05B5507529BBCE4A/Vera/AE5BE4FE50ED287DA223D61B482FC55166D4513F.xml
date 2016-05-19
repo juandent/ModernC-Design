@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+    <file name="C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\stdafx.h">
+        <error source="T013" severity="info" line="1" message="no copyright notice found" />
+        <error source="L005" severity="info" line="14" message="too many consecutive empty lines" />
+    </file>
+</checkstyle>

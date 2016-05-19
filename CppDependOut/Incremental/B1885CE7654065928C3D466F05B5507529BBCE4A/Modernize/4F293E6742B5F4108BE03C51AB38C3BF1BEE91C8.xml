@@ -1,0 +1,3 @@
+<?xml version="1.0"?> <modernize> <source filepath='C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\main.cpp'/><issue type = 'byvalue' line ='35' col='13'/>
+<issue type = 'byvalue' line ='35' col='39'/>
+</modernize>
