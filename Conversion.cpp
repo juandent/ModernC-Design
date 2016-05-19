@@ -202,12 +202,16 @@ struct Chunck {
 	unsigned short firstAvailableBlock, blocksAvailable;
 	void Init(std::size_t blockSize, unsigned short blocks) {
 		pData_ = new unsigned char[blockSize*blocks];
+		memset(pData_, 0, blockSize*blocks);
 		firstAvailableBlock = 0;
 		blocksAvailable = blocks;
-		unsigned short i = 0;
+		unsigned short i = 256;
 		unsigned char* p = pData_;
 		for (; i != blocks; p += blockSize) {
-			*reinterpret_cast<unsigned short*>(p) = ++i;
+			auto address = reinterpret_cast<unsigned short*>(p);
+			
+			*address = ++i;
+			std::cout << static_cast<void*>(p) << ", " << address << ": " << *address << std::endl;
 		}
 	}
 };
