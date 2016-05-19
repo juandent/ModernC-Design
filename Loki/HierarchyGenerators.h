@@ -156,7 +156,7 @@ namespace Loki
     struct FieldHelper
     {
         typedef typename TL::TypeAt<typename H::TList, i>::Result ElementType;
-        typedef typename H::template Rebind<ElementType>::Result UnitType;
+        typedef typename H::Rebind<ElementType>::Result UnitType;
         
         enum
         {

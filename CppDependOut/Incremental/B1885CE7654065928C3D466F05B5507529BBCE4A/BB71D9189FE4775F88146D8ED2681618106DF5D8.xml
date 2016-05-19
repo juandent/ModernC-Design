@@ -35,6 +35,636 @@
 <m f="1" bl="213" bc="4" el="213" ec="37"/>
 </Macros>
 <tun>
+<Comments>
+<c f="2" b="1" e="1"/>
+<c f="2" b="2" e="2"/>
+<c f="2" b="3" e="3"/>
+<c f="2" b="4" e="4"/>
+<c f="2" b="5" e="5"/>
+<c f="2" b="6" e="6"/>
+<c f="2" b="7" e="7"/>
+<c f="2" b="8" e="8"/>
+<c f="2" b="9" e="9"/>
+<c f="2" b="10" e="10"/>
+<c f="2" b="11" e="11"/>
+<c f="2" b="12" e="12"/>
+<c f="2" b="13" e="13"/>
+<c f="2" b="14" e="14"/>
+<c f="2" b="16" e="16"/>
+<c f="2" b="18" e="16"/>
+<c f="2" b="27" e="27"/>
+<c f="2" b="28" e="28"/>
+<c f="2" b="29" e="29"/>
+<c f="2" b="30" e="30"/>
+<c f="2" b="31" e="31"/>
+<c f="2" b="32" e="32"/>
+<c f="2" b="33" e="33"/>
+<c f="2" b="34" e="34"/>
+<c f="2" b="36" e="34"/>
+<c f="2" b="73" e="73"/>
+<c f="2" b="74" e="74"/>
+<c f="2" b="75" e="75"/>
+<c f="2" b="76" e="76"/>
+<c f="2" b="77" e="77"/>
+<c f="2" b="78" e="78"/>
+<c f="2" b="79" e="79"/>
+<c f="2" b="80" e="80"/>
+<c f="2" b="82" e="80"/>
+<c f="2" b="94" e="94"/>
+<c f="2" b="95" e="95"/>
+<c f="2" b="96" e="96"/>
+<c f="2" b="97" e="97"/>
+<c f="2" b="99" e="97"/>
+<c f="2" b="107" e="107"/>
+<c f="2" b="108" e="108"/>
+<c f="2" b="109" e="109"/>
+<c f="2" b="110" e="110"/>
+<c f="2" b="111" e="111"/>
+<c f="2" b="113" e="111"/>
+<c f="2" b="118" e="118"/>
+<c f="2" b="119" e="119"/>
+<c f="2" b="120" e="120"/>
+<c f="2" b="121" e="121"/>
+<c f="2" b="123" e="121"/>
+<c f="2" b="185" e="185"/>
+<c f="2" b="186" e="186"/>
+<c f="2" b="187" e="187"/>
+<c f="2" b="188" e="188"/>
+<c f="2" b="189" e="189"/>
+<c f="2" b="190" e="190"/>
+<c f="2" b="191" e="191"/>
+<c f="2" b="192" e="192"/>
+<c f="2" b="193" e="193"/>
+<c f="2" b="195" e="193"/>
+<c f="2" b="202" e="202"/>
+<c f="2" b="203" e="203"/>
+<c f="2" b="204" e="204"/>
+<c f="2" b="205" e="205"/>
+<c f="2" b="206" e="206"/>
+<c f="2" b="207" e="207"/>
+<c f="2" b="209" e="209"/>
+<c f="2" b="210" e="210"/>
+<c f="2" b="211" e="211"/>
+<c f="2" b="212" e="212"/>
+<c f="2" b="213" e="213"/>
+<c f="2" b="214" e="214"/>
+<c f="2" b="216" e="214"/>
+<c f="2" b="247" e="247"/>
+<c f="2" b="249" e="249"/>
+<c f="2" b="250" e="250"/>
+<c f="2" b="251" e="251"/>
+<c f="2" b="252" e="252"/>
+<c f="2" b="254" e="252"/>
+</Comments>
+<Macros/>
+<ns name="Loki" id="7d828c7591850b50182648a76af18b79_b8df3c210c435307f9c9b493d4aaa41d" file="2" linestart="25" lineend="247" original="0x7279eb8">
+<tm namespace="Loki" access="none" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_00d9adaa0d24ab7569c23b20a39175f6" file="2" linestart="36" lineend="37">
+<template_parameters>
+<ttp name="TList" id="7d828c7591850b50182648a76af18b79_e0ac55bb75fc183a89852f3ed613b8eb" depth="0" index="0" proto="type-parameter-0-0"/>
+<tpm name="Unit" id="7d828c7591850b50182648a76af18b79_c0895ba8c2b5f51a6639c2f9d5c7fc39" file="2" linestart="36" lineend="36" depth="0" index="1">
+<template_parameters>
+<ttp name="" id="7d828c7591850b50182648a76af18b79_00d9adaa0d24ab7569c23b20a39175f6" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tpm>
+</template_parameters>
+<cr namespace="Loki" access="none" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919" file="2" linestart="37" lineend="37"/>
+</tm>
+<ctps Spec="&lt;Typelist&lt;type-parameter-0-0, type-parameter-0-1&gt;, Unit&gt;" namespace="Loki" access="none" depth="0" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_f82200dd4f507556a438e37d518d87bd" file="2" linestart="39" lineend="52">
+<base access="public">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<base access="public">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_a071d256be17dc8990b4cebc2e8011fc" file="2" linestart="40" lineend="40"/>
+<asd access="public"/>
+<tyd name="TList" id="7d828c7591850b50182648a76af18b79_cce839250c3a9e71c30047953ef25cd9" file="2" linestart="45" lineend="45">
+<tss>
+<templatebase id="38b684f7c9874ac2574e40fca59364d3_52fb201c29bf2a925336cf3d4d931919"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+<tyd name="LeftBase" id="7d828c7591850b50182648a76af18b79_44de7ca8393ee544bea1d73047c80b56" file="2" linestart="46" lineend="46">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+<tyd name="RightBase" id="7d828c7591850b50182648a76af18b79_58b7949f8f1b1aaabf8b9df569e95890" file="2" linestart="47" lineend="47">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+<tm parent="7d828c7591850b50182648a76af18b79_f82200dd4f507556a438e37d518d87bd" access="none" depth="0" pod="true" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_e7eb863be8eb8ec3c07e9c79fef95be6" file="2" linestart="48" lineend="51">
+<template_parameters>
+<ttp name="T" id="7d828c7591850b50182648a76af18b79_15463a2100948631ad21c83572608d79" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<cr parent="7d828c7591850b50182648a76af18b79_f82200dd4f507556a438e37d518d87bd" access="none" depth="0" pod="true" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_9ac3d3c83e1ab601ea22dcb7444e5095" file="2" linestart="48" lineend="51">
+<cr access="public" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_83ad279f11da0ba102a48c6824523588" file="2" linestart="48" lineend="48"/>
+<tyd name="Result" id="7d828c7591850b50182648a76af18b79_fecf5d07531e84b274541682f3263d0c" file="2" linestart="50" lineend="50">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_ff8346d12f066ad772591215950dfe18"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+</cr>
+</tm>
+</ctps>
+<tm namespace="Loki" access="none" depth="0" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_00d9adaa0d24ab7569c23b20a39175f6" file="2" linestart="54" lineend="62" previous="7d828c7591850b50182648a76af18b79_00d9adaa0d24ab7569c23b20a39175f6">
+<template_parameters>
+<ttp name="AtomicType" id="7d828c7591850b50182648a76af18b79_e08f4d2cb08a185b4d4bca57bf68905e" depth="0" index="0" proto="type-parameter-0-0"/>
+<tpm name="Unit" id="7d828c7591850b50182648a76af18b79_c0895ba8c2b5f51a6639c2f9d5c7fc39" file="2" linestart="54" lineend="54" depth="0" index="1">
+<template_parameters>
+<ttp name="" id="7d828c7591850b50182648a76af18b79_00d9adaa0d24ab7569c23b20a39175f6" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tpm>
+</template_parameters>
+<cr namespace="Loki" access="none" depth="0" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919" file="2" linestart="55" lineend="62" previous="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919">
+<base access="public">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_c0895ba8c2b5f51a6639c2f9d5c7fc39"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_4a3c7acb74b505d872efd21705a303a7" file="2" linestart="55" lineend="55"/>
+<tyd name="LeftBase" id="7d828c7591850b50182648a76af18b79_12aa7de1780b3db411a173dd08804d34" file="2" linestart="57" lineend="57">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_c0895ba8c2b5f51a6639c2f9d5c7fc39"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+<tm parent="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919" access="none" depth="0" pod="true" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_7010c4843e46415ab4810a00e545dccd" file="2" linestart="58" lineend="61">
+<template_parameters>
+<ttp name="T" id="7d828c7591850b50182648a76af18b79_34a69eeb6b17fd3ee03ed40ad135837e" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<cr parent="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919" access="none" depth="0" pod="true" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_d89d76ebcbe0b2bd767d50e24e2ca3bc" file="2" linestart="58" lineend="61">
+<cr access="public" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_63d500337579ce99f49a85fcf7b1e3ed" file="2" linestart="58" lineend="58"/>
+<tyd name="Result" id="7d828c7591850b50182648a76af18b79_b81918c7a86d5e115840c25dd27f0270" file="2" linestart="60" lineend="60">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_c0895ba8c2b5f51a6639c2f9d5c7fc39"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+</cr>
+</tm>
+</cr>
+</tm>
+<ctps Spec="&lt;Loki::NullType, Unit&gt;" namespace="Loki" access="none" depth="0" pod="true" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_aa4cfef4827014416e7ae5859de3af53" file="2" linestart="64" lineend="71">
+<cr access="public" kind="class" name="GenScatterHierarchy" id="7d828c7591850b50182648a76af18b79_c74d8ba23739c4b7f04df001dd64625d" file="2" linestart="65" lineend="65"/>
+<tm parent="7d828c7591850b50182648a76af18b79_aa4cfef4827014416e7ae5859de3af53" access="none" depth="0" pod="true" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_594b67b9aa09c473124010079d7f3bcb" file="2" linestart="67" lineend="70">
+<template_parameters>
+<ttp name="T" id="7d828c7591850b50182648a76af18b79_43c323764d8711796bd11149f3d9266a" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+<cr parent="7d828c7591850b50182648a76af18b79_aa4cfef4827014416e7ae5859de3af53" access="none" depth="0" pod="true" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_5805edc3fb6b684d60bb28a3df58ff05" file="2" linestart="67" lineend="70">
+<cr access="public" kind="struct" name="Rebind" id="7d828c7591850b50182648a76af18b79_d92ecd8b1b83308511a770a24bb18cc0" file="2" linestart="67" lineend="67"/>
+<tyd name="Result" id="7d828c7591850b50182648a76af18b79_d4b195299fcd3d9f1c1eb412b3baa8ce" file="2" linestart="69" lineend="69">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_dd1379761ee26adf80801f572d00eeba"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</tyd>
+</cr>
+</tm>
+</ctps>
+<ft name="Field" id="7d828c7591850b50182648a76af18b79_8ad4a568dea071899566f7e0cdec6c90" file="2" linestart="82" lineend="86">
+<template_parameters>
+<ttp name="T" id="7d828c7591850b50182648a76af18b79_6e32a5329a38d9fa71cba80a9667a391" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="H" id="7d828c7591850b50182648a76af18b79_b5ed7c9076bc43527b7163b5ca87e769" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<f namespace="Loki" name="Field" id="7d828c7591850b50182648a76af18b79_cf5ab90bd28fa59d9693702b7524f2ca" file="2" linestart="83" lineend="86" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="typename H::template H::Rebind&lt;T&gt;::Result &amp;">
+<lrf>
+<DependentName/>
+</lrf>
+</fpt>
+<p name="obj" proto="H &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="84" cb="5" le="86" ce="5">
+<rx lb="85" cb="9" le="85" ce="16" pvirg="true">
+<drx lb="85" cb="16" kind="lvalue" nm="obj"/>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</ft>
+<ft name="Field" id="7d828c7591850b50182648a76af18b79_8ad4a568dea071899566f7e0cdec6c90" file="2" linestart="88" lineend="92">
+<template_parameters>
+<ttp name="T" id="7d828c7591850b50182648a76af18b79_141fbeec8eac0af2b2b581a542f64718" depth="0" index="0" proto="type-parameter-0-0"/>
+<ttp name="H" id="7d828c7591850b50182648a76af18b79_d16b28c9eea1ee8e64774dadc456c762" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<f namespace="Loki" name="Field" id="7d828c7591850b50182648a76af18b79_4579fe07470414fb95fce0b8aad96547" file="2" linestart="89" lineend="92" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="const typename H::template H::Rebind&lt;T&gt;::Result &amp;">
+<lrf>
+<QualType const="true">
+<DependentName/>
+</QualType>
+</lrf>
+</fpt>
+<p name="obj" proto="const H &amp;" isRef="true" access2="none">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="90" cb="5" le="92" ce="5">
+<rx lb="91" cb="9" le="91" ce="16" pvirg="true">
+<drx lb="91" cb="16" kind="lvalue" nm="obj"/>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</ft>
+<tm namespace="Loki" access="none" depth="0" kind="struct" name="TupleUnit" id="7d828c7591850b50182648a76af18b79_8209bc38e18cb27dd96ebf4c1e603b8b" file="2" linestart="99" lineend="105">
+<template_parameters>
+<ttp name="T" id="7d828c7591850b50182648a76af18b79_b82d95c6e7f997a898cd599896ba785a" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="Loki" access="none" depth="0" kind="struct" name="TupleUnit" id="7d828c7591850b50182648a76af18b79_2deb1c680ed7bd1760918db0b007b257" file="2" linestart="100" lineend="105">
+<cr access="public" kind="struct" name="TupleUnit" id="7d828c7591850b50182648a76af18b79_92d0a33d8d110cb609135a39a2b24a05" file="2" linestart="100" lineend="100"/>
+<fl name="value_" id="7d828c7591850b50182648a76af18b79_ff06bc75bcf0e908b5f7e6690ac0dc07" file="2" linestart="102" lineend="102" access="public" proto="T">
+<ttp/>
+</fl>
+<cv name="operator T &amp;" id="7d828c7591850b50182648a76af18b79_39067a4f971b062dce1eab979899f0f4" file="2" linestart="103" lineend="103" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="T &amp;">
+<lrf>
+<ttp/>
+</lrf>
+</fpt>
+<Stmt>
+<u lb="103" cb="23" le="103" ce="40">
+<rx lb="103" cb="25" le="103" ce="32" pvirg="true">
+<mex lb="103" cb="32" kind="lvalue" id="7d828c7591850b50182648a76af18b79_ff06bc75bcf0e908b5f7e6690ac0dc07" nm="value_" arrow="1">
+<n19 lb="103" cb="32"/>
+</mex>
+</rx>
+</u>
+
+</Stmt>
+</cv>
+<cv name="operator const T &amp;" id="7d828c7591850b50182648a76af18b79_ab8536a221fbb4e411d3c2411c992aff" file="2" linestart="104" lineend="104" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" const="true" proto="const T &amp;">
+<lrf>
+<QualType const="true">
+<ttp/>
+</QualType>
+</lrf>
+</fpt>
+<Stmt>
+<u lb="104" cb="35" le="104" ce="52">
+<rx lb="104" cb="37" le="104" ce="44" pvirg="true">
+<mex lb="104" cb="44" kind="lvalue" id="7d828c7591850b50182648a76af18b79_ff06bc75bcf0e908b5f7e6690ac0dc07" nm="value_" arrow="1">
+<n19 lb="104" cb="44"/>
+</mex>
+</rx>
+</u>
+
+</Stmt>
+</cv>
+</cr>
+</tm>
+<tm namespace="Loki" access="none" depth="1" kind="struct" name="Tuple" id="7d828c7591850b50182648a76af18b79_a0cce02967a00185de530b9e6da6de8b" file="2" linestart="113" lineend="116">
+<template_parameters>
+<ttp name="TList" id="7d828c7591850b50182648a76af18b79_bc4771a286a0016bfd8afd1ddc6eef20" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr namespace="Loki" access="none" depth="1" kind="struct" name="Tuple" id="7d828c7591850b50182648a76af18b79_b0db74ebc3b242be4c59f90b4a8c1148" file="2" linestart="114" lineend="116">
+<base access="public">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_47541e1137e9cbc4b2d0a488405d3919"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="struct" name="Tuple" id="7d828c7591850b50182648a76af18b79_a6f5cd077d08618e75c9502fa96156b0" file="2" linestart="114" lineend="114"/>
+</cr>
+</tm>
+<tm namespace="Loki" access="none" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_02908d3fbb6349cf13dd1f1709549059" file="2" linestart="123" lineend="123">
+<template_parameters>
+<ttp name="H" id="7d828c7591850b50182648a76af18b79_5fb8e405b306e4fdd32bdb1af474f900" depth="0" index="0" proto="type-parameter-0-0"/>
+<DeclaratorDecl name="i" id="7d828c7591850b50182648a76af18b79_19a266a8a9a53a3b472f775b7168056e" file="2" linestart="123" lineend="123" depth="0" index="1">
+<bt name="unsigned int"/>
+</DeclaratorDecl>
+</template_parameters>
+<cr namespace="Loki" access="none" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_6e31a46168670d581bcdb73762954efc" file="2" linestart="123" lineend="123"/>
+</tm>
+<ctps Spec="&lt;type-parameter-0-0, 0&gt;" namespace="Loki" access="none" depth="0" pod="true" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_f9ee0c76716aa24404c30da3ccb6ef0d" file="2" linestart="125" lineend="153">
+<cr access="public" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_ad262efe9d576b788fd5583a382c764f" file="2" linestart="126" lineend="126"/>
+<tyd name="ElementType" id="7d828c7591850b50182648a76af18b79_575ef20e0ee2765b389acde4a0814710" file="2" linestart="128" lineend="128">
+<DependentName/>
+</tyd>
+<tyd name="UnitType" id="7d828c7591850b50182648a76af18b79_d915826eb2efde5777b64f0ad993e31a" file="2" linestart="129" lineend="129">
+<DependentName/>
+</tyd>
+<e parent="7d828c7591850b50182648a76af18b79_f9ee0c76716aa24404c30da3ccb6ef0d" access="public" name="" id="7d828c7591850b50182648a76af18b79_ad67e27ee774869be80e2796e78d6d43" file="2" linestart="131" lineend="135" fixed="true">
+<promotion_type>
+<bt name="&lt;dependent type&gt;"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="isTuple" id="7d828c7591850b50182648a76af18b79_09d234db50ab69af5badcc7ac8cc82a2" file="2" linestart="133" lineend="133">
+<et>
+<e id="7d828c7591850b50182648a76af18b79_ad67e27ee774869be80e2796e78d6d43"/>
+</et>
+<Stmt>
+<n35 lb="133" cb="23" le="133" ce="70">
+<exp pvirg="true"/>
+</n35>
+
+</Stmt>
+</ec>
+<ec name="isConst" id="7d828c7591850b50182648a76af18b79_6f039aa6bc9ee53aaa52b759bf66c50f" file="2" linestart="134" lineend="134">
+<et>
+<e id="7d828c7591850b50182648a76af18b79_ad67e27ee774869be80e2796e78d6d43"/>
+</et>
+<Stmt>
+<n35 lb="134" cb="23" le="134" ce="38">
+<exp pvirg="true"/>
+</n35>
+
+</Stmt>
+</ec>
+</e>
+<tyd name="ConstLeftBase" id="7d828c7591850b50182648a76af18b79_72c1d411671b8210cb4b530ccbb1fb0d" file="2" linestart="137" lineend="137">
+<QualType const="true">
+<DependentName/>
+</QualType>
+</tyd>
+<tyd name="LeftBase" id="7d828c7591850b50182648a76af18b79_5e962cd910522da767144903c670222e" file="2" linestart="139" lineend="140">
+<DependentName/>
+</tyd>
+<tyd name="UnqualifiedResultType" id="7d828c7591850b50182648a76af18b79_e5c1b0f254ffc1eba1262a9b440353a8" file="2" linestart="142" lineend="143">
+<DependentName/>
+</tyd>
+<tyd name="ResultType" id="7d828c7591850b50182648a76af18b79_146bb48d7761df9bd3efb2f583b4e502" file="2" linestart="145" lineend="146">
+<DependentName/>
+</tyd>
+<m name="Do" id="7d828c7591850b50182648a76af18b79_74b8146f5a21d0cb5dca0c0fb7b21500" file="2" linestart="148" lineend="152" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="ResultType &amp;">
+<lrf>
+<Tdef>
+<DependentName/>
+</Tdef>
+</lrf>
+</fpt>
+<p name="obj" proto="H &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="149" cb="9" le="152" ce="9">
+<dst lb="150" cb="13" le="150" ce="37">
+<exp pvirg="true"/>
+<Var nm="leftBase">
+<lrf>
+<Tdef>
+<DependentName/>
+</Tdef>
+</lrf>
+<drx lb="150" cb="34" kind="lvalue" nm="obj"/>
+</Var>
+</dst>
+<rx lb="151" cb="13" le="151" ce="20" pvirg="true">
+<drx lb="151" cb="20" kind="lvalue" nm="leftBase"/>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</ctps>
+<tm namespace="Loki" access="none" depth="0" pod="true" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_02908d3fbb6349cf13dd1f1709549059" file="2" linestart="155" lineend="183" previous="7d828c7591850b50182648a76af18b79_02908d3fbb6349cf13dd1f1709549059">
+<template_parameters>
+<ttp name="H" id="7d828c7591850b50182648a76af18b79_5fb8e405b306e4fdd32bdb1af474f900" depth="0" index="0" proto="type-parameter-0-0"/>
+<DeclaratorDecl name="i" id="7d828c7591850b50182648a76af18b79_19a266a8a9a53a3b472f775b7168056e" file="2" linestart="155" lineend="155" depth="0" index="1">
+<bt name="unsigned int"/>
+</DeclaratorDecl>
+</template_parameters>
+<cr namespace="Loki" access="none" depth="0" pod="true" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_6e31a46168670d581bcdb73762954efc" file="2" linestart="156" lineend="183" previous="7d828c7591850b50182648a76af18b79_6e31a46168670d581bcdb73762954efc">
+<cr access="public" kind="struct" name="FieldHelper" id="7d828c7591850b50182648a76af18b79_c7c9a6c4396aa66dd08080f247d800f8" file="2" linestart="156" lineend="156"/>
+<tyd name="ElementType" id="7d828c7591850b50182648a76af18b79_bc8bbc36235d511d2eba1b7a12080256" file="2" linestart="158" lineend="158">
+<DependentName/>
+</tyd>
+<tyd name="UnitType" id="7d828c7591850b50182648a76af18b79_d08719c0ad64c0d76f64b6ff47ff2d4e" file="2" linestart="159" lineend="159">
+<DependentName/>
+</tyd>
+<e parent="7d828c7591850b50182648a76af18b79_6e31a46168670d581bcdb73762954efc" access="public" name="" id="7d828c7591850b50182648a76af18b79_c105aaa1612b4aa6975dab72106e9fa7" file="2" linestart="161" lineend="165" fixed="true">
+<promotion_type>
+<bt name="&lt;dependent type&gt;"/>
+</promotion_type>
+<integer_type>
+<bt name="int"/>
+</integer_type>
+<ec name="isTuple" id="7d828c7591850b50182648a76af18b79_09d234db50ab69af5badcc7ac8cc82a2" file="2" linestart="163" lineend="163">
+<et>
+<e id="7d828c7591850b50182648a76af18b79_c105aaa1612b4aa6975dab72106e9fa7"/>
+</et>
+<Stmt>
+<n35 lb="163" cb="23" le="163" ce="70">
+<exp pvirg="true"/>
+</n35>
+
+</Stmt>
+</ec>
+<ec name="isConst" id="7d828c7591850b50182648a76af18b79_6f039aa6bc9ee53aaa52b759bf66c50f" file="2" linestart="164" lineend="164">
+<et>
+<e id="7d828c7591850b50182648a76af18b79_c105aaa1612b4aa6975dab72106e9fa7"/>
+</et>
+<Stmt>
+<n35 lb="164" cb="23" le="164" ce="38">
+<exp pvirg="true"/>
+</n35>
+
+</Stmt>
+</ec>
+</e>
+<tyd name="ConstRightBase" id="7d828c7591850b50182648a76af18b79_74e3a324f9314afd5d115c602b1d84d2" file="2" linestart="167" lineend="167">
+<QualType const="true">
+<DependentName/>
+</QualType>
+</tyd>
+<tyd name="RightBase" id="7d828c7591850b50182648a76af18b79_b56d3afd84b331e765e237b8850cc1e7" file="2" linestart="169" lineend="170">
+<DependentName/>
+</tyd>
+<tyd name="UnqualifiedResultType" id="7d828c7591850b50182648a76af18b79_a13ddd46177bd1e676faf3bdb0824438" file="2" linestart="172" lineend="173">
+<DependentName/>
+</tyd>
+<tyd name="ResultType" id="7d828c7591850b50182648a76af18b79_f57865681def73a2d14fb0658e1d8d17" file="2" linestart="175" lineend="176">
+<DependentName/>
+</tyd>
+<m name="Do" id="7d828c7591850b50182648a76af18b79_a962d7589da1c31d8c4a892db293cefc" file="2" linestart="178" lineend="182" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="ResultType &amp;">
+<lrf>
+<Tdef>
+<DependentName/>
+</Tdef>
+</lrf>
+</fpt>
+<p name="obj" proto="H &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="179" cb="9" le="182" ce="9">
+<dst lb="180" cb="13" le="180" ce="39">
+<exp pvirg="true"/>
+<Var nm="rightBase">
+<lrf>
+<Tdef>
+<DependentName/>
+</Tdef>
+</lrf>
+<drx lb="180" cb="36" kind="lvalue" nm="obj"/>
+</Var>
+</dst>
+<rx lb="181" cb="13" le="181" ce="63" pvirg="true">
+<ce lb="181" cb="20" le="181" ce="63" nbparm="1">
+<exp pvirg="true"/>
+<n35 lb="181" cb="20" le="181" ce="51">
+<exp pvirg="true"/>
+</n35>
+<drx lb="181" cb="54" kind="lvalue" nm="rightBase"/>
+</ce>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<ft name="Field" id="7d828c7591850b50182648a76af18b79_8ad4a568dea071899566f7e0cdec6c90" file="2" linestart="195" lineend="200">
+<template_parameters>
+<DeclaratorDecl name="i" id="7d828c7591850b50182648a76af18b79_9332a38276e4df2e39f4275a2ea91792" file="2" linestart="195" lineend="195" depth="0" index="0">
+<bt name="int"/>
+</DeclaratorDecl>
+<ttp name="H" id="7d828c7591850b50182648a76af18b79_b5ed7c9076bc43527b7163b5ca87e769" depth="0" index="1" proto="type-parameter-0-1"/>
+</template_parameters>
+<f namespace="Loki" name="Field" id="7d828c7591850b50182648a76af18b79_cf5ab90bd28fa59d9693702b7524f2ca" file="2" linestart="196" lineend="200" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="typename FieldHelper&lt;H, i&gt;::ResultType &amp;">
+<lrf>
+<DependentName/>
+</lrf>
+</fpt>
+<p name="obj" proto="H &amp;" isRef="true" access2="none">
+<lrf>
+<ttp/>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="198" cb="5" le="200" ce="5">
+<rx lb="199" cb="9" le="199" ce="41" pvirg="true">
+<ce lb="199" cb="16" le="199" ce="41" nbparm="1">
+<exp pvirg="true"/>
+<n35 lb="199" cb="16" le="199" ce="35">
+<exp pvirg="true"/>
+</n35>
+<drx lb="199" cb="38" kind="lvalue" nm="obj"/>
+</ce>
+</rx>
+</u>
+
+</Stmt>
+</f>
+</ft>
+<tm namespace="Loki" access="none" kind="class" name="GenLinearHierarchy" id="7d828c7591850b50182648a76af18b79_b4cf6ce8281ed6e4e040abd6fb12f5f4" file="2" linestart="216" lineend="222">
+<template_parameters>
+<ttp name="TList" id="7d828c7591850b50182648a76af18b79_fbfee4adf2bc752b49684b0ff0320929" depth="0" index="0" proto="type-parameter-0-0"/>
+<tpm name="Unit" id="7d828c7591850b50182648a76af18b79_efe9407b4d65a896168fc58f723d754f" file="2" linestart="219" lineend="219" depth="0" index="1">
+<template_parameters>
+<ttp name="AtomicType" id="7d828c7591850b50182648a76af18b79_18cf898ca4f96346922e880a49efa465" depth="1" index="0" proto="type-parameter-1-0"/>
+<ttp name="Base" id="7d828c7591850b50182648a76af18b79_f21350a758b9ba83c7ef4e85ac820345" depth="1" index="1" proto="type-parameter-1-1"/>
+</template_parameters>
+</tpm>
+<ttp name="Root" id="7d828c7591850b50182648a76af18b79_d425c24fa314abf9bfaabcb0d36e19d2" depth="0" index="2" proto="type-parameter-0-2">
+<rt>
+<cr id="47875baf5144d2410164542b563a6ee4_a93c526152b8edcde15376e484f57431"/>
+</rt>
+</ttp>
+</template_parameters>
+<cr namespace="Loki" access="none" kind="class" name="GenLinearHierarchy" id="7d828c7591850b50182648a76af18b79_5380dfd10c8c8c4051898f88e7de1566" file="2" linestart="222" lineend="222"/>
+</tm>
+<ctps Spec="&lt;Typelist&lt;type-parameter-0-0, type-parameter-0-1&gt;, Unit, type-parameter-0-3&gt;" namespace="Loki" access="none" depth="0" kind="class" name="GenLinearHierarchy" id="7d828c7591850b50182648a76af18b79_0084e5a14e4cd1fd22849064f0059f70" file="2" linestart="224" lineend="234">
+<base access="public">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_a495e11cd15c0149cc63c717378c831e"/>
+<template_arguments>
+<ttp/>
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_5380dfd10c8c8c4051898f88e7de1566"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="GenLinearHierarchy" id="7d828c7591850b50182648a76af18b79_38bd4ce1f72545c727dccd6340c97589" file="2" linestart="231" lineend="231"/>
+</ctps>
+<ctps Spec="&lt;Typelist&lt;type-parameter-0-0, Loki::NullType&gt;, Unit, type-parameter-0-2&gt;" namespace="Loki" access="none" depth="0" kind="class" name="GenLinearHierarchy" id="7d828c7591850b50182648a76af18b79_ba1917e6706203934e2e4ff367659d99" file="2" linestart="236" lineend="245">
+<base access="public">
+<tss>
+<templatebase id="7d828c7591850b50182648a76af18b79_7d9c6a4cf11f728b8d5fd09b0b8fdaa8"/>
+<template_arguments>
+<ttp/>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="GenLinearHierarchy" id="7d828c7591850b50182648a76af18b79_17f2b1fec63f8fe3e4049643df61aba6" file="2" linestart="242" lineend="242"/>
+</ctps>
+</ns>
 <NamedDecl name="&lt;using-directive&gt;" id="2788ae306a10a3d8b90ab5381cfe2524_6728b6b0f829183eb7bbd3d3d987c87d" file="1" linestart="24" lineend="24"/>
 <NamedDecl name="&lt;using-directive&gt;" id="2788ae306a10a3d8b90ab5381cfe2524_6728b6b0f829183eb7bbd3d3d987c87d" file="1" linestart="25" lineend="25"/>
 <f name="useSuperSubClass" id="2788ae306a10a3d8b90ab5381cfe2524_57bfa6d31409337a52bb33c964a55f56" file="1" linestart="33" lineend="44" access="none" hasbody="true" isdef="true">

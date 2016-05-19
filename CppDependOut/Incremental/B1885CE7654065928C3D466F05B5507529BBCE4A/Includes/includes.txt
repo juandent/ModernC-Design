@@ -1,3 +1,4 @@
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\loki\hierarchygenerators.h
 c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\stdafx.h
 c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\targetver.h
 c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\conversion.cpp
