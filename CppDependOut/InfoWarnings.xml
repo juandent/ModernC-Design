@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with CppDepend v6.1.0.0</Info>
+  <Info>The parser used is Clang</Info>
+  <Info>4 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <Info>CppCheck is enabled.You can disable it from 'Project Properties=&gt;Plugins Tab'</Info>
+  <Info>Vera++ is not enabled.You can enable it from 'Project Properties=&gt;Plugins Tab' if you are interested to have style diagnostics</Info>
+  <ClangError>Project:ModernC++Design=&gt;'Typelist.h' file not found at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\Conversion.cpp:14:10</ClangError>
+  <ClangError>Project:ModernC++Design=&gt;'HierarchyGenerators.h' file not found at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\Conversion.cpp:15:10</ClangError>
+  <ClangError>Project:ModernC++Design=&gt;'NullType.h' file not found at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design/Typelist.hpp:12:10</ClangError>
+  <ClangError>Project:ModernC++Design=&gt;'Typelist.h' file not found at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\Typelist.cpp:14:10</ClangError>
+  <ClangError>Project:ModernC++Design=&gt;'NullType.h' file not found at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design/Typelist.hpp:12:10</ClangError>
+  <Warning>The project ModernC++Design contains 5 Clang errors, to see them you can activate the Clang parsing errors tab.</Warning>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>CppDepend analysis done. Duration: 00:01</Info>
+</InfoWarnings>

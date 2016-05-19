@@ -1,0 +1,190 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="1"/>
+<c f="1" b="2" e="2"/>
+<c f="1" b="3" e="3"/>
+<c f="1" b="4" e="4"/>
+<c f="1" b="5" e="5"/>
+<c f="1" b="6" e="6"/>
+<c f="1" b="7" e="7"/>
+<c f="1" b="9" e="9"/>
+<c f="1" b="10" e="9"/>
+<c f="1" b="45" e="45"/>
+<c f="1" b="46" e="45"/>
+<c f="1" b="48" e="48"/>
+<c f="1" b="49" e="49"/>
+<c f="1" b="50" e="50"/>
+<c f="1" b="51" e="51"/>
+<c f="1" b="52" e="52"/>
+<c f="1" b="53" e="53"/>
+<c f="1" b="55" e="53"/>
+<c f="1" b="59" e="59"/>
+<c f="1" b="61" e="59"/>
+</Comments>
+<Macros/>
+<tun>
+<v name="charsRtti" proto="std::type_info *" isPtr="true" isLiteral="true" id="3dd4c687c3a0a3e9e9caf49f881c6b9f_1643c9b95bbf65939ea4c944217d0272" file="1" linestart="31" lineend="31" access2="public">
+<pt>
+<ety>
+<rt>
+<cr id="73a8fa411db4fbe78ae44a3897601263_02707bcacec479205c98c207464b1cca"/>
+</rt>
+</ety>
+</pt>
+<Stmt>
+
+</Stmt>
+</v>
+<tyd name="NoDuplicates" id="3dd4c687c3a0a3e9e9caf49f881c6b9f_5a2efff99a7ec8af52a66761c49f8795" file="1" linestart="70" lineend="70">
+<bt name="int"/>
+</tyd>
+<f name="usePrint" id="3dd4c687c3a0a3e9e9caf49f881c6b9f_d2ef1ce3358de9a3b78f639769c5a243" file="1" linestart="73" lineend="79" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="73" cb="17" le="79" ce="1">
+<ocx lb="74" cb="5" le="74" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="74" cb="15">
+<drx lb="74" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="74" cb="5" le="74" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="74" cb="18">
+<n52 lb="74" cb="18">
+<slit/>
+</n52>
+</n32>
+</ocx>
+<ocx lb="76" cb="5" le="76" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="76" cb="15">
+<drx lb="76" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="76" cb="5" le="76" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="76" cb="18">
+<n52 lb="76" cb="18"/>
+</n32>
+</ocx>
+<ocx lb="78" cb="5" le="78" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="78" cb="15">
+<drx lb="78" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="78" cb="5" le="78" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="78" cb="18">
+<n52 lb="78" cb="18"/>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</f>
+<tyd name="ReplaceAll" id="3dd4c687c3a0a3e9e9caf49f881c6b9f_6a2a51d5e7b75e4e84e085c292c8b961" file="1" linestart="85" lineend="85">
+<bt name="int"/>
+</tyd>
+<f name="useReplaceAndPrint" id="3dd4c687c3a0a3e9e9caf49f881c6b9f_3a9c42cfc1827701e0bf29520eccf11b" file="1" linestart="88" lineend="94" access="none" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<Stmt>
+<u lb="88" cb="27" le="94" ce="1">
+<ocx lb="89" cb="5" le="89" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="89" cb="15">
+<drx lb="89" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="89" cb="5" le="89" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="89" cb="18">
+<n52 lb="89" cb="18">
+<slit/>
+</n52>
+</n32>
+</ocx>
+<ocx lb="91" cb="5" le="91" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="91" cb="15">
+<drx lb="91" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="91" cb="5" le="91" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="91" cb="18">
+<n52 lb="91" cb="18"/>
+</n32>
+</ocx>
+<ocx lb="93" cb="5" le="93" ce="18" nbparm="2" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d">
+<exp pvirg="true"/>
+<n32 lb="93" cb="15">
+<drx lb="93" cb="15" kind="lvalue" id="8b87011946485c1b08b5457c0a17b599_a8b001da139eef9b7b8dd07e8c06f59d" nm="operator&lt;&lt;">
+<template_arguments>
+<rt>
+<cts id="1b9b5f13fc50919fc1cbcbc41c4276ce_76e43d9fa50c2ce16dafa9452550a098">
+<template_arguments>
+<bt name="char"/>
+</template_arguments>
+</cts>
+</rt>
+</template_arguments>
+</drx>
+</n32>
+<drx lb="93" cb="5" le="93" ce="10" kind="lvalue" id="c91f05a696e2667c8ee47ccfafe8e7bf_fbe8f6ba0143c688ba07f32590d95a55" nm="cout"/>
+<n32 lb="93" cb="18">
+<n52 lb="93" cb="18"/>
+</n32>
+</ocx>
+</u>
+
+</Stmt>
+</f>
+<ns name="TL" id="3dd4c687c3a0a3e9e9caf49f881c6b9f_595b6e1e707280924506b4639f4ea683" file="1" linestart="98" lineend="106"/>
+</tun>
+</Root>

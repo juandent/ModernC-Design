@@ -10,6 +10,7 @@
 #include <typeinfo>
 #include <iostream>
 #include <string>
+#include <cassert>
 
 #include "Typelist.h"
 #include "HierarchyGenerators.h"
@@ -209,7 +210,7 @@ struct Chunck {
 		unsigned char* p = pData_;
 		for (; i != blocks; p += blockSize) {
 			auto address = reinterpret_cast<unsigned short*>(p);
-			
+			assert(address == p);
 			*address = ++i;
 			std::cout << static_cast<void*>(p) << ", " << address << ": " << *address << std::endl;
 		}
