@@ -122,7 +122,6 @@ namespace JD {
 	template<typename Head, typename NextHead, typename Tail, const std::type_info** start_address, size_t index>
 	struct AssignEff< Typelist<Head, Typelist<NextHead, Tail>>, start_address, index>
 	{
-		static enum { next_address = next(index) };
 		using Base = AssignEff<Typelist<NextHead, Tail>, start_address, index + 1>;
 
 		static void assign() {
