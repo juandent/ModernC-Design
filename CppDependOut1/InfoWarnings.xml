@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InfoWarnings>
+  <Info>Begin full analysis with CppDepend v6.1.0.0</Info>
+  <Info>The parser used is Clang</Info>
+  <Info>4 Cores are used, you can change this value from the menu Tools-&gt;Options-&gt;Parser Configuration</Info>
+  <Info>CppCheck is enabled.You can disable it from 'Project Properties=&gt;Plugins Tab'</Info>
+  <Info>Vera++ is not enabled.You can enable it from 'Project Properties=&gt;Plugins Tab' if you are interested to have style diagnostics</Info>
+  <ClangError>Project:ModernC++Design=&gt;ambiguous conversion from derived class 'Loki::GenScatterHierarchy&lt;Loki::Typelist&lt;int, Loki::Typelist&lt;int, Loki::Typelist&lt;std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt; &gt;, Loki::Typelist&lt;JD::Widget, Loki::NullType&gt; &gt; &gt; &gt;, Holder&gt;' to base class 'LeftBase' (aka 'Loki::GenScatterHierarchy&lt;int, Holder&gt;'):
+    class Loki::GenScatterHierarchy&lt;struct Loki::Typelist&lt;int, struct Loki::Typelist&lt;int, struct Loki::Typelist&lt;class std::basic_string&lt;char, struct std::char_traits&lt;char&gt;, class std::allocator&lt;char&gt; &gt;, struct Loki::Typelist&lt;struct JD::Widget, class Loki::NullType&gt; &gt; &gt; &gt;, Holder&gt; -&gt; GenScatterHierarchy&lt;int, Holder&gt;
+    class Loki::GenScatterHierarchy&lt;struct Loki::Typelist&lt;int, struct Loki::Typelist&lt;int, struct Loki::Typelist&lt;class std::basic_string&lt;char, struct std::char_traits&lt;char&gt;, class std::allocator&lt;char&gt; &gt;, struct Loki::Typelist&lt;struct JD::Widget, class Loki::NullType&gt; &gt; &gt; &gt;, Holder&gt; -&gt; GenScatterHierarchy&lt;struct Loki::Typelist&lt;int, struct Loki::Typelist&lt;class std::basic_string&lt;char, struct std::char_traits&lt;char&gt;, class std::allocator&lt;char&gt; &gt;, struct Loki::Typelist&lt;struct JD::Widget, class Loki::NullType&gt; &gt; &gt;, Holder&gt; -&gt; GenScatterHierarchy&lt;int, Holder&gt; at C:\Users\juan_\Documents\C++ Courses\C++\loki-for-VStudio\ModernC++Design\Loki\HierarchyGenerators.h:150:34</ClangError>
+  <Warning>The project ModernC++Design contains 1 Clang errors, to see them you can activate the Clang parsing errors tab.</Warning>
+  <Info>No dependency cycle detected in Projects referencement graph.</Info>
+  <Info>CppDepend analysis done. Duration: 00:03</Info>
+</InfoWarnings>

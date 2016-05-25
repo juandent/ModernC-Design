@@ -1,0 +1,233 @@
+<Root>
+<Comments>
+<c f="1" b="1" e="1"/>
+<c f="1" b="2" e="2"/>
+<c f="1" b="3" e="3"/>
+<c f="1" b="4" e="4"/>
+<c f="1" b="5" e="5"/>
+<c f="1" b="6" e="6"/>
+<c f="1" b="7" e="7"/>
+<c f="1" b="9" e="7"/>
+</Comments>
+<Macros/>
+<tun>
+<tm access="none" depth="0" pod="true" kind="struct" name="NoChecking" id="958333667786d8a7b049e184938878b3_dc70b51c6893c0e04dc28d212b7fde23" file="1" linestart="12" lineend="15">
+<template_parameters>
+<ttp name="T" id="958333667786d8a7b049e184938878b3_34f47d766c6b3db98159d152c09e1f4c" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" depth="0" pod="true" kind="struct" name="NoChecking" id="958333667786d8a7b049e184938878b3_dc70b51c6893c0e04dc28d212b7fde23" file="1" linestart="12" lineend="15">
+<cr access="public" kind="struct" name="NoChecking" id="958333667786d8a7b049e184938878b3_6c7bc65f90be344a6c0d95eab4f8ea64" file="1" linestart="12" lineend="12"/>
+<m name="Check" id="958333667786d8a7b049e184938878b3_1b40d17ae69338aa2243f4a683ce9bd8" file="1" linestart="14" lineend="14" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="" proto="T *" isPtr="true" access2="none">
+<pt>
+<ttp/>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="14" cb="27" le="14" ce="28"/>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<tm access="none" depth="0" pod="true" kind="struct" name="EnforceNotNull" id="958333667786d8a7b049e184938878b3_d165375cbec18ff749846d466f11b039" file="1" linestart="17" lineend="27">
+<template_parameters>
+<ttp name="T" id="958333667786d8a7b049e184938878b3_284554632ebcdc1af342017cbb889d6f" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" depth="0" pod="true" kind="struct" name="EnforceNotNull" id="958333667786d8a7b049e184938878b3_d165375cbec18ff749846d466f11b039" file="1" linestart="17" lineend="27">
+<cr access="public" kind="struct" name="EnforceNotNull" id="958333667786d8a7b049e184938878b3_9a0c99ff0d0e8348350a97759e2129f0" file="1" linestart="17" lineend="17"/>
+<cr parent="958333667786d8a7b049e184938878b3_d165375cbec18ff749846d466f11b039" access="public" depth="1" kind="class" name="NullPointerException" id="958333667786d8a7b049e184938878b3_29c4df260169bae134f281fad38e1ddd" file="1" linestart="19" lineend="22">
+<base access="public">
+<ety>
+<rt>
+<cr id="cd5c00b94fc879fa2fd4e6cb3753b60c_b84e67c1c1bf483f7187d5232b53ef08"/>
+</rt>
+</ety>
+</base>
+<cr access="public" kind="class" name="NullPointerException" id="958333667786d8a7b049e184938878b3_8377a3fdb0a1602c4b2d47768b47eb1b" file="1" linestart="19" lineend="19"/>
+</cr>
+<m name="Check" id="958333667786d8a7b049e184938878b3_7f9df9e742a676b37de5d181be8a3321" file="1" linestart="23" lineend="26" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ptr" proto="T *" isPtr="true" access2="none">
+<pt>
+<ttp/>
+</pt>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="24" cb="5" le="26" ce="5">
+<if lb="25" cb="9" le="25" ce="47">
+<uo lb="25" cb="13" le="25" ce="15" kind="!">
+<drx lb="25" cb="15" kind="lvalue" nm="ptr"/>
+</uo>
+<thr lb="25" cb="20" le="25" ce="47">
+<exp pvirg="true"/>
+<n21 lb="25" cb="26" le="25" ce="47">
+<unresolvedconst>
+<rt>
+<cr id="958333667786d8a7b049e184938878b3_29c4df260169bae134f281fad38e1ddd"/>
+</rt>
+</unresolvedconst>
+<exp pvirg="true"/>
+<il lb="25" cb="46" le="25" ce="47">
+<exp pvirg="true"/>
+</il>
+</n21>
+</thr>
+</if>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<tm access="none" depth="0" pod="true" kind="struct" name="EnforceNotNullWithDefault" id="958333667786d8a7b049e184938878b3_15e83bf3b41815d342648b1836ae7bd1" file="1" linestart="29" lineend="38">
+<template_parameters>
+<ttp name="T" id="958333667786d8a7b049e184938878b3_d0c1a52a9a824e578c1eb270e62615e3" depth="0" index="0" proto="type-parameter-0-0"/>
+</template_parameters>
+<cr access="none" depth="0" pod="true" kind="struct" name="EnforceNotNullWithDefault" id="958333667786d8a7b049e184938878b3_15e83bf3b41815d342648b1836ae7bd1" file="1" linestart="29" lineend="38">
+<cr access="public" kind="struct" name="EnforceNotNullWithDefault" id="958333667786d8a7b049e184938878b3_62bfdd6838b674a0c1030c2fb1be9876" file="1" linestart="29" lineend="29"/>
+<m name="GetDefaultValue" id="958333667786d8a7b049e184938878b3_7b0865b126c7f73816fd6c6dcd81ba7f" file="1" linestart="31" lineend="33" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fpt>
+<Stmt>
+<u lb="31" cb="33" le="33" ce="5">
+<rx lb="32" cb="9" le="32" ce="22" pvirg="true">
+<new lb="32" cb="16" le="32" ce="22">
+<exp pvirg="true"/>
+<il lb="32" cb="21" le="32" ce="22">
+<exp pvirg="true"/>
+</il>
+</new>
+</rx>
+</u>
+
+</Stmt>
+</m>
+<m name="Check" id="958333667786d8a7b049e184938878b3_cf3830749420a5eb1497e9c07b0ebe79" file="1" linestart="34" lineend="37" access="public" storage="static" hasbody="true" isdef="true">
+<fpt cc="cdecl" proto="void">
+<bt name="void"/>
+</fpt>
+<p name="ptr" proto="T *&amp;" isRef="true" access2="none">
+<lrf>
+<pt>
+<ttp/>
+</pt>
+</lrf>
+<Stmt>
+
+</Stmt>
+</p>
+<Stmt>
+<u lb="35" cb="5" le="37" ce="5">
+<if lb="36" cb="9" le="36" ce="42">
+<uo lb="36" cb="13" le="36" ce="15" kind="!">
+<drx lb="36" cb="15" kind="lvalue" nm="ptr"/>
+</uo>
+<xop lb="36" cb="20" le="36" ce="42" kind="=">
+<drx lb="36" cb="20" kind="lvalue" nm="ptr"/>
+<ce lb="36" cb="26" le="36" ce="42" nbparm="0" id="958333667786d8a7b049e184938878b3_7b0865b126c7f73816fd6c6dcd81ba7f">
+<exp pvirg="true"/>
+<drx lb="36" cb="26" kind="lvalue" id="958333667786d8a7b049e184938878b3_7b0865b126c7f73816fd6c6dcd81ba7f" nm="GetDefaultValue"/>
+</ce>
+</xop>
+</if>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+<tm access="none" depth="0" kind="class" name="SmartPtr" id="958333667786d8a7b049e184938878b3_5ebc04cf8c66238c1f82223344c4e0bb" file="1" linestart="41" lineend="55">
+<template_parameters>
+<ttp name="T" id="958333667786d8a7b049e184938878b3_85fa338f99fd9d4ffdf93170ed5ca2c9" depth="0" index="0" proto="type-parameter-0-0"/>
+<tpm name="CheckingPolicy" id="958333667786d8a7b049e184938878b3_bf9ec517b77e0e2670fa19f93265bbc2" file="1" linestart="43" lineend="43" depth="0" index="1">
+<template_parameters>
+<ttp name="" id="958333667786d8a7b049e184938878b3_b62c1246227c30909dc282031488915d" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tpm>
+<tpm name="ThreadingModel" id="958333667786d8a7b049e184938878b3_9cdb4ecc087fa99566062bc56f8f16b0" file="1" linestart="44" lineend="44" depth="0" index="2">
+<template_parameters>
+<ttp name="" id="958333667786d8a7b049e184938878b3_b62c1246227c30909dc282031488915d" depth="1" index="0" proto="type-parameter-1-0"/>
+</template_parameters>
+</tpm>
+</template_parameters>
+<cr access="none" depth="0" kind="class" name="SmartPtr" id="958333667786d8a7b049e184938878b3_5ebc04cf8c66238c1f82223344c4e0bb" file="1" linestart="46" lineend="55">
+<base access="public">
+<tss>
+<templatebase id="958333667786d8a7b049e184938878b3_bf9ec517b77e0e2670fa19f93265bbc2"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<base access="private">
+<tss>
+<templatebase id="958333667786d8a7b049e184938878b3_9cdb4ecc087fa99566062bc56f8f16b0"/>
+<template_arguments>
+<ttp/>
+</template_arguments>
+</tss>
+</base>
+<cr access="public" kind="class" name="SmartPtr" id="958333667786d8a7b049e184938878b3_15ae8ccd2c6dbc98b3f035bc3f1ce5e6" file="1" linestart="46" lineend="46"/>
+<fl name="pointee_" id="958333667786d8a7b049e184938878b3_d342178122af2a9ac98e157437df87e2" file="1" linestart="48" lineend="48" isPtr="true" access="private" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fl>
+<asd access="public"/>
+<m name="operator-&gt;" id="958333667786d8a7b049e184938878b3_2319d6b83ab00fada5ff09af6c84726b" file="1" linestart="50" lineend="54" operator="true" access="public" hasbody="true" isdef="true">
+<fpt cc="x86_thiscall" proto="T *">
+<pt>
+<ttp/>
+</pt>
+</fpt>
+<Stmt>
+<u lb="50" cb="21" le="54" ce="5">
+<dst lb="51" cb="9" le="51" ce="61">
+<exp pvirg="true"/>
+<Var nm="guard" value="true">
+<DependentName/>
+<n47 lb="51" cb="54" le="51" ce="60">
+<exp pvirg="true"/>
+<uo lb="51" cb="55" le="51" ce="56" kind="*">
+<n19 lb="51" cb="56"/>
+</uo>
+</n47>
+</Var>
+</dst>
+<ce lb="52" cb="9" le="52" ce="42" nbparm="1">
+<exp pvirg="true"/>
+<n14 lb="52" cb="9" le="52" ce="28">
+<exp pvirg="true"/>
+</n14>
+<mex lb="52" cb="34" kind="lvalue" id="958333667786d8a7b049e184938878b3_d342178122af2a9ac98e157437df87e2" nm="pointee_" arrow="1">
+<n19 lb="52" cb="34"/>
+</mex>
+</ce>
+<rx lb="53" cb="9" le="53" ce="16" pvirg="true">
+<mex lb="53" cb="16" kind="lvalue" id="958333667786d8a7b049e184938878b3_d342178122af2a9ac98e157437df87e2" nm="pointee_" arrow="1">
+<n19 lb="53" cb="16"/>
+</mex>
+</rx>
+</u>
+
+</Stmt>
+</m>
+</cr>
+</tm>
+</tun>
+</Root>

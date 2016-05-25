@@ -25,6 +25,179 @@ using namespace Loki;
 using namespace Loki::TL;
 
 
+namespace JD {
+
+	// TList must have at least 1 type!!
+
+	template< typename TList, const std::type_info** start_address>
+	struct AssignInv {
+		static void assign() {}
+	};
+
+	template<typename Head, const std::type_info** start_address>
+	struct AssignInv< Typelist<Head, NullType>, start_address> 
+	{
+		static enum { index = 0 };
+		static void assign() {
+			start_address[index] = &typeid(Head);
+		}
+	};
+
+	template<typename Head, typename NextHead, typename Tail, const std::type_info** start_address>
+	struct AssignInv< Typelist<Head, Typelist<NextHead, Tail>>, start_address>
+	{
+		using Base = AssignInv<Typelist<NextHead, Tail>, start_address>;
+
+		static enum {
+			index = 1 + Base::index
+		};
+
+		static void assign() {
+			Base::assign();
+			start_address[index] = &typeid(Head);
+		}
+	};
+
+	// TList must have at least 1 type!!
+
+	template< typename TList, const std::type_info** start_address, size_t length>
+	struct Assign {
+		static void assign() {}
+	};
+
+	template<typename Head, const std::type_info** start_address, size_t length>
+	struct Assign< Typelist<Head, NullType>, start_address, length>
+	{
+		static enum { index = 1 };
+		static void assign() {
+			start_address[length - index] = &typeid(Head);
+		}
+	};
+
+	template<typename Head, typename NextHead, typename Tail, const std::type_info** start_address, size_t length>
+	struct Assign< Typelist<Head, Typelist<NextHead, Tail>>, start_address, length>
+	{
+		using Base = Assign<Typelist<NextHead, Tail>, start_address, length>;
+
+		static enum {
+			index = 1 + Base::index
+		};
+
+		static void assign() {
+			Base::assign();
+			start_address[length - index] = &typeid(Head);
+		}
+	};
+
+	typedef ::Loki::Typelist<char, Typelist<short, Typelist<int, Typelist<long, NullType>>>> SignedIntegers;
+	//typedef TYPELIST_4(char, short, int, long) SignedIntegers;
+
+	const std::type_info* intsRtti[Length<SignedIntegers>::value];
+
+	// TList must have at least 1 type!!
+
+	template< typename TList, const std::type_info** start_address, size_t index>
+	struct AssignEff {
+		static void assign() {}
+	};
+
+	template<typename Head, const std::type_info** start_address, size_t index>
+	struct AssignEff< Typelist<Head, NullType>, start_address, index>
+	{
+		static void assign() {
+			start_address[index] = &typeid(Head);
+		}
+	};
+
+	constexpr const std::type_info** next(const std::type_info** start)
+	{
+		return start + sizeof(void*);
+	}
+
+	constexpr unsigned next(unsigned start)
+	{
+		return start + sizeof(void*);
+	}
+
+	template<typename Head, typename NextHead, typename Tail, const std::type_info** start_address, size_t index>
+	struct AssignEff< Typelist<Head, Typelist<NextHead, Tail>>, start_address, index>
+	{
+		static enum { next_address = next(index) };
+		using Base = AssignEff<Typelist<NextHead, Tail>, start_address, index + 1>;
+
+		static void assign() {
+			Base::assign();
+			start_address[index] = &typeid(Head);
+		}
+	};
+
+
+	void useAssign() {
+#if FALSE
+		AssignInv<SignedIntegers, intsRtti>::assign();
+
+		for (int i = 0; i < Length<SignedIntegers>::value; ++i) {
+
+			auto x = intsRtti[i];
+			std::cout << x->name() << std::endl;
+		}
+
+		Assign<SignedIntegers, intsRtti, Length<SignedIntegers>::value>::assign();
+
+		for (int i = 0; i < Length<SignedIntegers>::value; ++i) {
+
+			auto x = intsRtti[i];
+			std::cout << x->name() << std::endl;
+		}
+#endif
+		auto res = next(intsRtti);
+
+		AssignEff<SignedIntegers, intsRtti, 0>::assign();
+
+		for (int i = 0; i < Length<SignedIntegers>::value; ++i) {
+
+			auto x = intsRtti[i];
+			std::cout << x->name() << std::endl;
+		}
+
+	}
+
+#if FALSE
+	template<typename Head, typename Tail, const std::type_info* start_address>
+	struct AssignValues;
+
+
+	template<typename Head, typename NextHead, typename Tail, const std::type_info* start_address>
+	struct AssignValues<Head, Typelist<NextHead, Tail>>
+	{
+		using Base = AssignValues<NextHead, Tail>;
+
+		static enum {
+			index = 1 + Base::index
+		};
+
+		static void assign() {
+			Base::assign();
+			start_address[index] = &typeid(Head);
+		}
+
+	};
+
+
+	template<typename Head, const std::type_info* start_address>
+	struct AssignValues<Head, NullType, start_address> {
+		static enum { index = 0};
+		static void assign() {
+			start_address[index] = &typeid(Head);
+		}
+	};
+#endif
+}
+/*
+template
+
+template<typename Head, NullType>
+*/
 
 //template<typename T, typename U>
 //using Super_Subclass = Conversion<const U*, const void*>::same_type;
@@ -140,10 +313,13 @@ void useGenScatterHierarchy() {
 
 	RepeatedInt rep_int;
 
+	auto isConst = TypeTraits<decltype(rep_int)>::isConst;
+
 	Field<0>(rep_int)._value = 45;
+#if FALSE
 	Field<1>(rep_int)._value = 67;
 	Field<2>(rep_int)._value = "juan";
-
+#endif
     
 }
 

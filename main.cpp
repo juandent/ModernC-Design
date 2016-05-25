@@ -259,6 +259,11 @@ void printHierarchy();
 void useLeaf();
 void useGenLinearHierarchy();
 void useChuncks();
+void useGenScatterHierarchy();
+
+namespace JD {
+	void useAssign();
+}
 
 int main(int argc, const char * argv[]) {
     // insert code here...
@@ -266,6 +271,10 @@ int main(int argc, const char * argv[]) {
     auto x = abs(-4);
     auto s = -6;
     
+	useGenScatterHierarchy();
+
+	JD::useAssign();
+
 	useChuncks();
 
 	useGenLinearHierarchy();

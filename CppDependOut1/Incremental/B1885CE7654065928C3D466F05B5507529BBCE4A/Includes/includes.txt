@@ -1,0 +1,8 @@
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\loki\hierarchygenerators.h
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\stdafx.h
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\targetver.h
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\conversion.cpp
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\main.cpp
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\smartptr.cpp
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\stdafx.cpp
+c:\users\juan_\documents\c++ courses\c++\loki-for-vstudio\modernc++design\typelist.cpp
