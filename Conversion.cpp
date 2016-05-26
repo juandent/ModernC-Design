@@ -37,7 +37,7 @@ namespace JD {
 	template<typename Head, const std::type_info** start_address>
 	struct AssignInv< Typelist<Head, NullType>, start_address> 
 	{
-		static enum { index = 0 };
+		enum { index = 0 };
 		static void assign() {
 			start_address[index] = &typeid(Head);
 		}
@@ -48,7 +48,7 @@ namespace JD {
 	{
 		using Base = AssignInv<Typelist<NextHead, Tail>, start_address>;
 
-		static enum {
+		enum {
 			index = 1 + Base::index
 		};
 
@@ -68,7 +68,7 @@ namespace JD {
 	template<typename Head, const std::type_info** start_address, size_t length>
 	struct Assign< Typelist<Head, NullType>, start_address, length>
 	{
-		static enum { index = 1 };
+		enum { index = 1 };
 		static void assign() {
 			start_address[length - index] = &typeid(Head);
 		}
@@ -79,7 +79,7 @@ namespace JD {
 	{
 		using Base = Assign<Typelist<NextHead, Tail>, start_address, length>;
 
-		static enum {
+		enum {
 			index = 1 + Base::index
 		};
 
@@ -96,7 +96,7 @@ namespace JD {
 
 	// TList must have at least 1 type!!
 
-	template< typename TList, const std::type_info** start_address, size_t index>
+	template< typename TList, const std::type_info** start_address, size_t index=0>
 	struct AssignEff {
 		static void assign() {}
 	};
@@ -130,6 +130,48 @@ namespace JD {
 		}
 	};
 
+#if FALSE
+	namespace UsingClang {
+
+		// TList must have at least 1 type!!
+
+		template< typename TList, const std::type_info** start_address>
+		struct AssignEff {
+			static void assign() {}
+		};
+
+		template<typename Head, const std::type_info** start_address>
+		struct AssignEff< Typelist<Head, NullType>, start_address>
+		{
+			static void assign() {
+				*start_address = &typeid(Head);
+			}
+		};
+
+		constexpr const std::type_info** next(const std::type_info** start)
+		{
+			return start + sizeof(void*);
+		}
+
+		constexpr unsigned next(unsigned start)
+		{
+			return start + sizeof(void*);
+		}
+
+		template<typename Head, typename NextHead, typename Tail, const std::type_info** start_address>
+		struct AssignEff< Typelist<Head, Typelist<NextHead, Tail>>, start_address>
+		{
+			enum { next_address = reinterpret_cast<size_t>( start_address + 1) };
+
+			using Base = AssignEff<Typelist<NextHead, Tail>, next_address>;
+
+			static void assign() {
+				Base::assign();
+				*start_address = &typeid(Head);
+			}
+		};
+	}
+#endif
 
 	void useAssign() {
 #if FALSE
@@ -149,9 +191,18 @@ namespace JD {
 			std::cout << x->name() << std::endl;
 		}
 #endif
+#if 1==1
 		auto res = next(intsRtti);
 
-		AssignEff<SignedIntegers, intsRtti, 0>::assign();
+		AssignEff<SignedIntegers, intsRtti>::assign();
+
+		for (int i = 0; i < Length<SignedIntegers>::value; ++i) {
+
+			auto x = intsRtti[i];
+			std::cout << x->name() << std::endl;
+		}
+#else
+		UsingClang::AssignEff<SignedIntegers, intsRtti>::assign();
 
 		for (int i = 0; i < Length<SignedIntegers>::value; ++i) {
 
@@ -159,6 +210,7 @@ namespace JD {
 			std::cout << x->name() << std::endl;
 		}
 
+#endif
 	}
 
 #if FALSE
@@ -314,13 +366,16 @@ void useGenScatterHierarchy() {
 
 	auto isConst = TypeTraits<decltype(rep_int)>::isConst;
 
-	Field<0>(rep_int)._value = 45;
+	//Field<0>(rep_int)._value = 45;
 #if FALSE
 	Field<1>(rep_int)._value = 67;
 	Field<2>(rep_int)._value = "juan";
 #endif
     
 }
+
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Woverloaded-virtual"
 
 template<class T, class Base>
 struct EventHandler : public Base
@@ -332,6 +387,8 @@ public:
 		std::cout << eventId << std::endl;
 	}
 };
+
+#pragma clang diagnostic pop
 
 struct Window {
 	virtual void Do()

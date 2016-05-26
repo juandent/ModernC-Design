@@ -127,7 +127,7 @@ template <class T, class U>
 class Gadget
 {
 public:
-    virtual void fun() { std::cout << "fun\n"; }
+     virtual void fun() { std::cout << "fun\n"; }
 };
 
 /*
@@ -169,6 +169,7 @@ struct Base {
     virtual Base* clone() const noexcept {
         return new Base(*this);
     }
+	virtual ~Base() {}
 };
 
 struct SimilarBase
